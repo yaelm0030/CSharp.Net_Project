@@ -1,0 +1,15 @@
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\bin\Debug\net8.0\DalList.deps.json
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\bin\Debug\net8.0\DalList.dll
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\bin\Debug\net8.0\DalList.pdb
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\bin\Debug\net8.0\DalFacade.dll
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\bin\Debug\net8.0\DalFacade.pdb
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\DalList.csproj.AssemblyReference.cache
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\DalList.AssemblyInfoInputs.cache
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\DalList.AssemblyInfo.cs
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\DalList.csproj.CoreCompileInputs.cache
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\DalList.csproj.Up2Date
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\DalList.dll
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\refint\DalList.dll
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\DalList.pdb
+M:\C#.NET Project\DotNet2025_7420_6348\DalList\obj\Debug\net8.0\ref\DalList.dll

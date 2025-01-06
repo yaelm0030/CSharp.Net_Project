@@ -1,0 +1,116 @@
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.exe
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.deps.json
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.runtimeconfig.json
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.pdb
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.cashier.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.sourcelink.json
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\refint\UI.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.pdb
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\ref\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.exe
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.deps.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.runtimeconfig.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.cashier.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Manager.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.sourcelink.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\refint\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\ref\UI.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Manager.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.OrderForm.resources
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.exe
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.deps.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.runtimeconfig.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.pdb
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Cashier.resources
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Manager.resources
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.OrderForm.resources
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.GenerateResource.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfo.cs
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.sourcelink.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.Up2Date
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\refint\UI.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.pdb
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.genruntimeconfig.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\ref\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.exe
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.deps.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.runtimeconfig.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Cashier.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Manager.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.OrderForm.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.sourcelink.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\refint\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\ref\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.exe
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.deps.json
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.runtimeconfig.json
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.pdb
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Cashier.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Manager.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.OrderForm.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.sourcelink.json
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\refint\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.pdb
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\ref\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Login.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Customers.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Products.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Sales.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Customers.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Login.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Products.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Sales.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Customers.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Login.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Products.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Sales.resources
