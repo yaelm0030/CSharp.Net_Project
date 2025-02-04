@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct>
+  <Product>
+    <Id>220</Id>
+    <Name>productname1</Name>
+    <Category>cat1</Category>
+    <Price>4</Price>
+    <InStock>20</InStock>
+  </Product>
+  <Product>
+    <Id>221</Id>
+    <Name>productname2</Name>
+    <Category>cat1</Category>
+    <Price>1.1</Price>
+    <InStock>4</InStock>
+  </Product>
+  <Product>
+    <Id>222</Id>
+    <Name>productname3</Name>
+    <Category>cat1</Category>
+    <Price>1.1</Price>
+    <InStock>4</InStock>
+  </Product>
+  <Product>
+    <Id>223</Id>
+    <Name>productname4</Name>
+    <Category>cat1</Category>
+    <Price>1.1</Price>
+    <InStock>4</InStock>
+  </Product>
+</ArrayOfProduct>
