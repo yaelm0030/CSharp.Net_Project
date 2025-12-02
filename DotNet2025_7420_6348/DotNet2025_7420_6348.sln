@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalTest", "DalTest\DalTest.csproj", "{650ED190-97E1-4A4F-8C0D-B24DF6958E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalFacade", "DalFacade\DalFacade.csproj", "{D636DB0D-3EA8-4841-8B1C-2961C71C9B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalList", "DalList\DalList.csproj", "{AEF073F5-6461-48E5-A0BC-C00D7A291E32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{650ED190-97E1-4A4F-8C0D-B24DF6958E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650ED190-97E1-4A4F-8C0D-B24DF6958E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650ED190-97E1-4A4F-8C0D-B24DF6958E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650ED190-97E1-4A4F-8C0D-B24DF6958E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D636DB0D-3EA8-4841-8B1C-2961C71C9B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D636DB0D-3EA8-4841-8B1C-2961C71C9B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D636DB0D-3EA8-4841-8B1C-2961C71C9B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D636DB0D-3EA8-4841-8B1C-2961C71C9B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF073F5-6461-48E5-A0BC-C00D7A291E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF073F5-6461-48E5-A0BC-C00D7A291E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF073F5-6461-48E5-A0BC-C00D7A291E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF073F5-6461-48E5-A0BC-C00D7A291E32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86B2B315-5465-4C41-8609-C34D5FDB5FC4}
+	EndGlobalSection
+EndGlobal

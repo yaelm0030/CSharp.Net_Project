@@ -1,0 +1,11 @@
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\bin\Debug\net8.0\DalFacade.deps.json
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\bin\Debug\net8.0\DalFacade.dll
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\bin\Debug\net8.0\DalFacade.pdb
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\obj\Debug\net8.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfoInputs.cache
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfo.cs
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\obj\Debug\net8.0\DalFacade.csproj.CoreCompileInputs.cache
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\obj\Debug\net8.0\DalFacade.dll
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\obj\Debug\net8.0\DalFacade.pdb
+M:\C#.NET Project\DotNet2025_7420_6348\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll
