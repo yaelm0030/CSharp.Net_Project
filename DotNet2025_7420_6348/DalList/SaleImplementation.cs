@@ -38,7 +38,7 @@ internal class SaleImplementation : ISale
     public void Update(Sale s)
     {
         if (DataSource.Sales.Exists(s))
-            DataSource.Sales.Find(sale => sale.Id == s.Id) = s;
+            DataSource.Sales[DataSource.Sales.FindIndex(sale => sale.Id == s.Id)] = s;
         else
             throw new NotImplementedException();
     }

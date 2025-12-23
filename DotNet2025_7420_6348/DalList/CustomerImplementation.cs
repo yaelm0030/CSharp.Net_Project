@@ -38,8 +38,7 @@ internal class CustomerImplementation : ICustomer
     public void Update(Customer c)
     {
         if (DataSource.Customers.Exists(cus => cus.Id == c.Id))
-            //לבדוק אם תקין
-            DataSource.Customers.Find(cus => cus.Id == c.Id) = c;
+            DataSource.Customers[DataSource.Customers.FindIndex(cus => cus.Id == c.Id)] = c;
         else
             throw new NotImplementedException();
     }

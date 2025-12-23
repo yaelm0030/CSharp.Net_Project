@@ -38,7 +38,7 @@ internal class ProductImplementation : IProduct
     public void Update(Product p)
     {
         if (DataSource.Products.Exists(prod => prod.Id == p.Id))
-            DataSource.Products.Find(prod => prod.Id == p.Id) = p;
+            DataSource.Products[DataSource.Products.FindIndex(prod => prod.Id == p.Id)] = p;
         else
             throw new NotImplementedException();
     }
