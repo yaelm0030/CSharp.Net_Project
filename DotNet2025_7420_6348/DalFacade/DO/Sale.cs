@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
@@ -7,42 +8,27 @@ using System.Threading.Tasks;
 
 namespace DO
 {
-    internal class Sale
+    public record Sale(
+            int Id =0,//איך מגדירים את המספר הרץ?
+            int ProductId = 0,
+            int AmountNeeded = 0,
+            double PriceAfterDiscount = 0,
+            bool ClubCustomersSale = false
+        )
     {
-        static int Counter=0;
+        DateTime SaleBeginningDate = DateTime.Now;
+        DateTime SaleEndingDate = DateTime.Now.AddMonths(1);
 
-        int Id;
-        int ProductId;
-        int AmountNeeded;
-        double PriceAfterDiscount;
-        bool ClubCustomersSale;
-        DateTime SaleBeginningDate;
-        DateTime SaleEndingDate;
-
-        public Sale()
+        public Sale():this(0,0,0,0,false)
         {
-            this.Id= Counter++;
-            this.ProductId= 0;
-            this.AmountNeeded= 0;
-            this.PriceAfterDiscount= 0;
-            this.ClubCustomersSale= false;
-            this.SaleBeginningDate = DateTime.Now;
-            this.SaleEndingDate = DateTime.Now.AddMonths(1);
+            SaleBeginningDate = DateTime.Now;
+            SaleEndingDate = DateTime.Now.AddMonths(1);
         }
-        public Sale(
-        int ProductId,
-        int AmountNeeded,
-        double PriceAfterDiscount,
-        bool ClubCustomersSale,
-        DateTime SaleBeginningDate,
-        DateTime SaleEndingDate)
+
+        public Sale(int ProductId, int AmountNeeded, double PriceAfterDiscount, bool ClubCustomersSale, DateTime SaleBeginningDate, DateTime SaleEndingDate):this(Id, ProductId, AmountNeeded, PriceAfterDiscount, ClubCustomersSale)
         {
-            this.Id =Counter++;
-            this.ProductId = ProductId;
-            this.AmountNeeded = AmountNeeded;
-            this.ClubCustomersSale = ClubCustomersSale;
-            this.SaleBeginningDate=SaleBeginningDate;
-            this.SaleEndingDate= SaleEndingDate;
+            this.SaleBeginningDate = SaleBeginningDate;
+            this.SaleEndingDate = SaleEndingDate;
         }
     }
 }

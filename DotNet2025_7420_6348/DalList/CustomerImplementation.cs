@@ -3,43 +3,48 @@ using DalApi;
 
 namespace Dal;
 
-internal class CustomerImplementation : ICustomer
+public class CustomerImplementation : ICustomer
 {
     public int Create(Customer c)
     {
-        if(!DataSource.Customers.Exists(cus=>cus.Id==c.Id))
-            DataSource.Customers.Add(c);
-        else
-            throw new NotImplementedException();
+
+            if (!DataSource.Customers.Exists(cus => cus != null && cus.Id == c.Id))
+            {
+                DataSource.Customers.Add(c);
+                return c.Id;
+            }
+            else
+                throw new CustomerAlreadyExistsException("Customer Already Exists");
     }
 
     public void Delete(int id)
     {
-        if (DataSource.Customers.Exists(cus => cus.Id == id))
-            DataSource.Customers.Remove(DataSource.Customers.Find(cus=>cus.Id==id));
-        else
-            throw new NotImplementedException();
+
+            if (DataSource.Customers.Exists(cus => cus != null && cus.Id == id))
+                DataSource.Customers.Remove(DataSource.Customers.Find(cus => cus!.Id == id));
+            else
+                throw new CustomerIdNotFoundException(id);
     }
 
     public Customer? Read(int id)
     {
-        if (DataSource.Customers.Exists(cus => cus.Id == id))
-            return DataSource.Customers.Find(cus => cus.Id == id);
-        else
-            throw new NotImplementedException();
+
+            if (DataSource.Customers.Exists(cus => cus != null && cus.Id == id))
+                return DataSource.Customers.Find(cus => cus!.Id == id);
+            else
+                throw new CustomerIdNotFoundException(id);
     }
 
     public List<Customer> ReadAll()
     {
-        return DataSource.Customers;
-        throw new NotImplementedException();
+        return new List<Customer?>(DataSource.Customers != null ? DataSource.Customers : new List<Customer?>())!;
     }
 
     public void Update(Customer c)
     {
-        if (DataSource.Customers.Exists(cus => cus.Id == c.Id))
-            DataSource.Customers[DataSource.Customers.FindIndex(cus => cus.Id == c.Id)] = c;
-        else
-            throw new NotImplementedException();
+            if (DataSource.Customers.Exists(cus => cus != null && cus.Id == c.Id))
+                DataSource.Customers[DataSource.Customers.FindIndex(cus => cus!.Id == c.Id)] = c;
+            else
+                throw new CustomerIdNotFoundException(c.Id);
     }
 }
