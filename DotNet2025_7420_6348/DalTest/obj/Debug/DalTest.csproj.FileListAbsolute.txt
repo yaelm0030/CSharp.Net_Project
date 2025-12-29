@@ -4,3 +4,14 @@ C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.ne
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.exe
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.deps.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.runtimeconfig.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\ref\DalTest.dll

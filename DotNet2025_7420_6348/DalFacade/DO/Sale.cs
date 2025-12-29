@@ -25,7 +25,7 @@ namespace DO
             SaleEndingDate = DateTime.Now.AddMonths(1);
         }
 
-        public Sale(int ProductId, int AmountNeeded, double PriceAfterDiscount, bool ClubCustomersSale, DateTime SaleBeginningDate, DateTime SaleEndingDate):this(Id, ProductId, AmountNeeded, PriceAfterDiscount, ClubCustomersSale)
+        public Sale(int Id,int ProductId, int AmountNeeded, double PriceAfterDiscount, bool ClubCustomersSale, DateTime SaleBeginningDate, DateTime SaleEndingDate):this(Id, ProductId, AmountNeeded, PriceAfterDiscount, ClubCustomersSale)
         {
             this.SaleBeginningDate = SaleBeginningDate;
             this.SaleEndingDate = SaleEndingDate;

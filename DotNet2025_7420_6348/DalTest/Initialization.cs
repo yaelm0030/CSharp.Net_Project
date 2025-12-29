@@ -6,16 +6,17 @@ namespace DalTest;
 
 public static class Initialization
 {
-    private static ISale s_dalSale;
-    private static ICustomer s_dalCustomer;
-    private static IProduct s_dalProduct;
+    private static ISale? s_dalSale;
+    private static ICustomer? s_dalCustomer;
+    private static IProduct? s_dalProduct;
 
+    //רשימה של המוצרים הקיימים בשביל להשתמש בהם באתחול המבצעים
     private static void CreateSales()
     {
-        s_dalSale.Create(new Sale(s_dalProduct.Read(111).Id,2,3.4,true,DateTime.Now,DateTime.Now.AddDays(7)));
-        s_dalSale.Create(new Sale(s_dalProduct.Read(112).Id, 4, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
-        s_dalSale.Create(new Sale(s_dalProduct.Read(113).Id, 1, 6.8, true, DateTime.Now, DateTime.Now.AddDays(7)));
-        s_dalSale.Create(new Sale(s_dalProduct.Read(114).Id, 10, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dalSale.Create(new Sale(1,s_dalProduct.Read(111).Id,2,3.4,true,DateTime.Now,DateTime.Now.AddDays(7)));
+        s_dalSale.Create(new Sale(2, s_dalProduct.Read(112).Id, 4, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dalSale.Create(new Sale(3, s_dalProduct.Read(113).Id, 1, 6.8, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dalSale.Create(new Sale(4,s_dalProduct.Read(114).Id, 10, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
     }
 
     private static void CreateProducts()
