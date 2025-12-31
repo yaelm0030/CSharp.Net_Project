@@ -12,15 +12,13 @@ using System.Threading.Channels;
 
 internal class Program
 {
-    private static ISale s_dalSale = new SaleImplementation();
-    private static ICustomer s_dalCustomer = new CustomerImplementation();
-    private static IProduct s_dalProduct = new ProductImplementation();
+    private static readonly IDal s_dal = new DalList();
 
     private static void Main(string[] args)
     {
         try
         {
-            Initialization.Initialize(s_dalSale, s_dalCustomer, s_dalProduct);
+            Initialization.Initialize(s_dal);
             MainMenu();
         }
         catch (ProductIdNotFoundException pidnfEx)
@@ -63,12 +61,14 @@ internal class Program
         int.TryParse(Console.ReadLine(), out choice);
         switch (choice)
         {
-            case 1: SubMenuProduct(s_dalProduct); break;
-            case 2: SubMenuSale(s_dalSale); break;
-            case 3: SubMenuCustomer(s_dalCustomer); break;
+            case 1: SubMenuProduct(); break;
+            case 2: SubMenuSale(); break;
+            case 3: SubMenuCustomer(); break;
             default: break;
         }
     }
+
+
     public static int PrintSubMenu(string dep)
     {
         Console.WriteLine($"For viewing all {dep}s press 0");
@@ -80,69 +80,55 @@ internal class Program
         Console.WriteLine($"For quiting press any other key");
 
         int choice;
-        int.TryParse(Console.ReadLine(), out choice);
+        if(!int.TryParse(Console.ReadLine(), out choice))
+            choice = 6;
         return choice;
     }
-
-    private static void SubMenuSale(ISale sSale) {
+    private static void SubMenuSale() {
         int choice = PrintSubMenu("sale");
         switch (choice)
         {
-            case 0: ReadAllSales(sSale.ReadAll()); SubMenuSale(sSale); break;
-            case 1: AddSale(sSale); SubMenuSale(sSale); break;
-            case 2: ReadSale(sSale); SubMenuSale(sSale); break;
-            case 3: UpdateSale(sSale); SubMenuSale(sSale); break;
-            case 4: DeleteSale(sSale); SubMenuSale(sSale); break;
+            case 0: ReadAll<Sale>(s_dal.Sale); SubMenuSale(); break;
+            case 1: AddSale(); SubMenuSale(); break;
+            case 2: Read<Sale>(s_dal.Sale); SubMenuSale(); break;
+            case 3: UpdateSale(); SubMenuSale(); break;
+            case 4: Delete<Sale>(s_dal.Sale); SubMenuSale(); break;
             case 5: MainMenu(); break;
             default: break;
         }
     }
-    private static void SubMenuCustomer(ICustomer cCustomer) {
+    private static void SubMenuCustomer() {
         int choice = PrintSubMenu("customer");
         switch (choice)
         {
-            case 0: ReadAllCustomers(cCustomer.ReadAll()); SubMenuCustomer(cCustomer); break;
-            case 1: AddCustomer(cCustomer); SubMenuCustomer(cCustomer); break;
-            case 2: ReadCustomer(cCustomer); SubMenuCustomer(cCustomer); break;
-            case 3: UpdateCustomer(cCustomer); SubMenuCustomer(cCustomer); break;
-            case 4: DeleteCustomer(cCustomer); SubMenuCustomer(cCustomer); break;
+            case 0: ReadAll<Customer>(s_dal.Customer); SubMenuCustomer(); break;
+            case 1: AddCustomer(); SubMenuCustomer(); break;
+            case 2: Read<Customer>(s_dal.Customer); SubMenuCustomer(); break;
+            case 3: UpdateCustomer(); SubMenuCustomer(); break;
+            case 4: Delete<Customer>(s_dal.Customer); SubMenuCustomer(); break;
             case 5: MainMenu(); break;
             default: break;
         }
     }
-
-    private static void SubMenuProduct(IProduct pProduct) {
+    private static void SubMenuProduct()
+    {
 
         int choice = PrintSubMenu("product");
         switch (choice)
         {
-            case 0:ReadAllProducts(pProduct.ReadAll()); SubMenuProduct( pProduct); break;
-            case 1:AddProduct(pProduct); SubMenuProduct(pProduct); break;
-            case 2:ReadProduct(pProduct); SubMenuProduct(pProduct); break;
-            case 3:UpdateProduct(pProduct); SubMenuProduct(pProduct); break;
-            case 4:DeleteProduct(pProduct); SubMenuProduct(pProduct); break;
-            case 5:MainMenu();break;
+            case 0: ReadAll<Product>(s_dal.Product); SubMenuProduct(); break;
+            case 1: AddProduct(); SubMenuProduct(); break;
+            case 2: Read<Product>(s_dal.Product); SubMenuProduct(); break;
+            case 3: UpdateProduct(); SubMenuProduct(); break;
+            case 4: Delete<Product>(s_dal.Product); SubMenuProduct(); break;
+            case 5: MainMenu(); break;
             default: break;
         }
 
     }
-    private static void AddProduct(IProduct iproduct)
+
+    private static Product AskProduct(int code = 0)
     {
-        Product p = AskProduct();
-        iproduct.Create(p);
-    }
-    private static void AddCustomer(ICustomer icus)
-    {
-        Customer c = AskCustomer();
-        icus.Create(c);
-    }
-    private static void AddSale(ISale isale)
-    {
-        Sale s = AskSale();
-        isale.Create(s);
-    }
-    private static void ProductMenu() { }
-    private static Product AskProduct(int code = 0) {
         string name;
         Category category;
         double price;
@@ -163,7 +149,8 @@ internal class Program
             amount = 1;
         return new Product(code, name, category, price, amount);
     }
-    private static Sale AskSale(int code = 0) {
+    private static Sale AskSale(int code = 0)
+    {
         int prodId;
         int amount;
         double price;
@@ -180,9 +167,10 @@ internal class Program
         Console.WriteLine("Do you have to be a club customer?");
         if (!bool.TryParse(Console.ReadLine(), out club))
             club = true;
-        return new Sale(code, prodId, amount, price, club,DateTime.Now,DateTime.Now);
+        return new Sale(code, prodId, amount, price, club, DateTime.Now, DateTime.Now);
     }
-    private static Customer AskCustomer(int identity=0) {
+    private static Customer AskCustomer(int identity = 0)
+    {
         string name;
         string address;
         string phone;
@@ -197,104 +185,70 @@ internal class Program
         phone = Console.ReadLine()!;
         return new Customer(identity, name, address, phone);
     }
-    private static void ReadProduct(IProduct pr)
+
+
+    private static void AddProduct()
     {
-        Console.WriteLine("Insert product id");
-        int id;
-        if (!int.TryParse(Console.ReadLine(), out id))
-            id = 111;
-        Console.WriteLine(pr.Read(id));
+        Product p = AskProduct();
+        s_dal.Product.Create(p);
     }
-    private static void ReadSale(ISale sSale)
+    private static void AddCustomer()
     {
-        Console.WriteLine("Insert sale id");
-        int id;
-        if (!int.TryParse(Console.ReadLine(), out id))
-            id = 0;
-        Console.WriteLine(sSale.Read(id));
+        Customer c = AskCustomer();
+        s_dal.Customer.Create(c);
     }
-    private static void ReadCustomer(ICustomer customer)
+    private static void AddSale()
     {
-        Console.WriteLine("Insert customer id");
-        int id;
-        if (!int.TryParse(Console.ReadLine(), out id))
-            id = 111;
-        Console.WriteLine(customer.Read(id));
+        Sale s = AskSale();
+        s_dal.Sale.Create(s);
     }
 
-    private static void UpdateProduct(IProduct iprod) {
+    private static void UpdateProduct()
+    {
         Console.WriteLine("Insert product ID");
         int id;
         int.TryParse(Console.ReadLine(), out id);
         Product p = AskProduct(id);
-        iprod.Update(p);
+        s_dal.Product.Update(p);
     }
-    private static void UpdateSale(ISale isale) {
+    private static void UpdateSale()
+    {
         Console.WriteLine("Insert sale ID");
         int id;
         int.TryParse(Console.ReadLine(), out id);
         Sale s = AskSale(id);
-        isale.Update(s);
+        s_dal.Sale.Update(s);
     }
-    private static void UpdateCustomer(ICustomer icus) {
+    private static void UpdateCustomer()
+    {
         Console.WriteLine("Insert customer ID");
         int id;
         int.TryParse(Console.ReadLine(), out id);
         Customer c = AskCustomer(id);
-        icus.Update(c);
-    }
-    private static void ReadAllProducts(List<Product> products) {
-        foreach(Product p in products)
-        {
-            Console.WriteLine(p);
-        }
-    }
-    private static void ReadAllSales(List<Sale> sales) {
-        foreach(Sale s in sales)
-        {
-            Console.WriteLine(s);
-        }
-    }
-    private static void ReadAllCustomers(List<Customer>customers) {
-        foreach(Customer c in customers)
-        {
-            Console.WriteLine(c);
-        }
-    }
-    //למה הקוד הכפול? פונקציות שעושות את אותן פעולות
-    private static void ReadAllProducts(IProduct pr) {
-        List<Product> products=pr.ReadAll();
-        ReadAllProducts(products);
-    }
-    private static void ReadAllSales(ISale sSale) {
-        List<Sale> sales = sSale.ReadAll();
-        ReadAllSales(sales);
-    }
-    private static void ReadAllCustomers(ICustomer cust) {
-        List<Customer> customers = cust.ReadAll();
-        ReadAllCustomers(customers);
+        s_dal.Customer.Update(c);
     }
 
-    private static void DeleteProduct(IProduct product) {
-        Console.WriteLine("Insert product id");
+    private static void ReadAll<T>(ICrud<T>icrud)
+    {
+        List<T>lst=icrud.ReadAll();
+        foreach (T item in lst)
+        {
+            Console.WriteLine(item);
+        }
+    }
+    private static void Read<T>(ICrud<T> icrud)
+    {
+        Console.WriteLine("Insert id");
+        int id;
+        if (!int.TryParse(Console.ReadLine(), out id))
+            id = 111;
+        Console.WriteLine(icrud.Read(id));
+    }
+    private static void Delete<T>(ICrud<T> icrud) {
+        Console.WriteLine("Insert id");
         int id;
         if (!int.TryParse(Console.ReadLine(), out id))
             id = 0;
-        product.Delete(id);
+        icrud.Delete(id);
     }
-    private static void DeleteSale(ISale sSale) {
-        Console.WriteLine("Insert sale id");
-        int id;
-        if (!int.TryParse(Console.ReadLine(), out id))
-            id = 0;
-        sSale.Delete(id);
-    }
-    private static void DeleteCustomer(ICustomer customer) {
-        Console.WriteLine("Insert customer id");
-        int id;
-        if (!int.TryParse(Console.ReadLine(), out id))
-            id = 0;
-        customer.Delete(id);
-    }
-
 }
