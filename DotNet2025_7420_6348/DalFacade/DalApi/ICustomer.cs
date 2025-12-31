@@ -2,7 +2,7 @@
 
 namespace DalApi;
 
-public interface ICustomer
+public interface ICustomer:ICrud<Customer>
 {
     //האם תקין לשנות את הרשאת הישויות בdo לpublic? כדי להשתמש בהן כאן? לעדכן את חני ואסתי
     int Create(Customer c);

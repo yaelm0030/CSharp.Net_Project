@@ -2,9 +2,8 @@
 
 using DO;
 
-public interface ISale
+public interface ISale:ICrud<Sale>
 {
-    //האם תקין לשנות את הרשאת הישויות בdo לpublic? כדי להשתמש בהן כאן? לעדכן את חני ואסתי
     int Create(Sale s);
     Sale? Read(int id);
     List<Sale> ReadAll();

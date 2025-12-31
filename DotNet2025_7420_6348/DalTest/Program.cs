@@ -180,23 +180,22 @@ internal class Program
         Console.WriteLine("Do you have to be a club customer?");
         if (!bool.TryParse(Console.ReadLine(), out club))
             club = true;
-        return new Sale(code, prodId, amount, price, club);
+        return new Sale(code, prodId, amount, price, club,DateTime.Now,DateTime.Now);
     }
     private static Customer AskCustomer(int identity=0) {
-        int id;
         string name;
         string address;
         string phone;
         Console.WriteLine("Insert customer's id");
-        if (!int.TryParse(Console.ReadLine(), out id))
-            id = 0;
+        if (!int.TryParse(Console.ReadLine(), out identity))
+            identity = 0;
         Console.WriteLine("Insert customer's name");
         name = Console.ReadLine()!;
         Console.WriteLine("Insert customer's address");
         address = Console.ReadLine()!;
         Console.WriteLine("Insert customer's phone");
         phone = Console.ReadLine()!;
-        return new Customer(id, name, address, phone);
+        return new Customer(identity, name, address, phone);
     }
     private static void ReadProduct(IProduct pr)
     {
@@ -224,15 +223,24 @@ internal class Program
     }
 
     private static void UpdateProduct(IProduct iprod) {
-        Product p = AskProduct();
+        Console.WriteLine("Insert product ID");
+        int id;
+        int.TryParse(Console.ReadLine(), out id);
+        Product p = AskProduct(id);
         iprod.Update(p);
     }
     private static void UpdateSale(ISale isale) {
-        Sale s = AskSale();
+        Console.WriteLine("Insert sale ID");
+        int id;
+        int.TryParse(Console.ReadLine(), out id);
+        Sale s = AskSale(id);
         isale.Update(s);
     }
     private static void UpdateCustomer(ICustomer icus) {
-        Customer c = AskCustomer();
+        Console.WriteLine("Insert customer ID");
+        int id;
+        int.TryParse(Console.ReadLine(), out id);
+        Customer c = AskCustomer(id);
         icus.Update(c);
     }
     private static void ReadAllProducts(List<Product> products) {

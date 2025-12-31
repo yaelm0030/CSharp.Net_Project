@@ -7,15 +7,10 @@ public class SaleImplementation : ISale
 {
     public int Create(Sale s)
     {
-        if (!DataSource.Sales.Exists(sale => sale != null && sale.Id == s.Id))
-        {
-            int myId = DataSource.Config.GetSalesCounter;
-            s=s with { Id = myId };
-            DataSource.Sales.Add(s);
-            return s.Id;
-        }
-        else
-                throw new SaleAlreadyExistsException("Sale Already Exists");
+        int myId = DataSource.Config.GetSalesCounter;
+        s=s with { Id = myId };
+        DataSource.Sales.Add(s);
+        return s.Id;
     }
 
     public void Delete(int id)
@@ -42,7 +37,10 @@ public class SaleImplementation : ISale
     public void Update(Sale s)
     {
         if (DataSource.Sales.Exists(sale => sale != null && sale.Id == s.Id))
-            DataSource.Sales[DataSource.Sales.FindIndex(sale => sale!.Id == s.Id)] = s;
+        {
+            Delete(s.Id);
+            DataSource.Sales.Add(s);
+        }
         else
             throw new SaleIdNotFoundException(s.Id);
     }

@@ -2,7 +2,7 @@
 
 namespace DalApi;
 
-public interface IProduct { 
+public interface IProduct:ICrud<Product> { 
     //האם תקין לשנות את הרשאת הישויות בdo לpublic? כדי להשתמש בהן כאן? לעדכן את חני ואסתי
     int Create(Product p);
     Product? Read(int id);

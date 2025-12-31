@@ -8,18 +8,14 @@ using System.Threading.Tasks;
 namespace DO
 {
     public record Product(
-        int Id=0,
-        string Name="",
-        Category Category=Category.cat1,
-        double Price=0.0,
-        int InStock=1
+        int Id,
+        string Name,
+        Category Category,
+        double Price,
+        int InStock
     )
     {
-        public Product(
-            string Name,
-            Category Category,
-            double Price,
-            int InStock):this(1,Name,Category,Price,InStock)
+        public Product():this(1,"",0,0,1)
         {  }
     }
 
