@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace DO
 {
     public record Sale(
-            int Id =0,//איך מגדירים את המספר הרץ?
+            int Id =0,
             int ProductId = 0,
             int AmountNeeded = 0,
             double PriceAfterDiscount = 0,

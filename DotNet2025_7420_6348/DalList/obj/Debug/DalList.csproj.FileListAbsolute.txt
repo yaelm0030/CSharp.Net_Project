@@ -12,3 +12,17 @@ C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.ne
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\refint\DalList.dll
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.pdb
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\ref\DalList.dll
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalList.deps.json
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalList.dll
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalList.pdb
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.sourcelink.json
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.dll
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\refint\DalList.dll
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.pdb
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\ref\DalList.dll

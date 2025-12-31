@@ -10,6 +10,8 @@ public class ProductImplementation : IProduct
 
             if (!DataSource.Products.Exists(prod => prod != null && prod.Id == p.Id))
             {
+                int myId = DataSource.Config.GetProductCounter;
+                p=p with { Id = myId };
                 DataSource.Products.Add(p);
                 return p.Id;
             }
