@@ -1,5 +1,6 @@
 ﻿using DO;
 using DalApi;
+using System.Linq;
 
 namespace Dal;
 
@@ -18,7 +19,7 @@ internal class SaleImplementation : ISale
         if (DataSource.Sales.Exists(sale => sale != null && sale.Id == id))
             DataSource.Sales.Remove(DataSource.Sales.Find(sale => sale!.Id == id));
         else
-            throw new SaleIdNotFoundException(id);
+            throw new DalIDNotFoundException($"Sale with id: {id} was not found");
     }
 
     public Sale? Read(int id)
@@ -26,11 +27,23 @@ internal class SaleImplementation : ISale
         if (DataSource.Sales.Exists(sale => sale != null && sale.Id == id))
             return DataSource.Sales.Find(sale => sale!.Id == id);
         else
-            throw new SaleIdNotFoundException(id);
+            throw new DalIDNotFoundException($"Sale with id: {id} was not found");
     }
 
-    public List<Sale> ReadAll()
+    public Sale? Read(Func<Sale, bool> filter)
     {
+        return DataSource.Sales.FirstOrDefault(filter!);
+    }
+
+    Sale? ICrud<Sale>.Read(Func<Sale, bool> filter)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Sale?> ReadAll(Func<Sale,bool>?filter=null)
+    {
+        if (filter != null)
+            return DataSource.Sales.Where<Sale>(filter).ToList()!;
         return new List<Sale?>(DataSource.Sales!=null?DataSource.Sales:new List<Sale?>())!;
     }
 
@@ -42,6 +55,8 @@ internal class SaleImplementation : ISale
             DataSource.Sales.Add(s);
         }
         else
-            throw new SaleIdNotFoundException(s.Id);
+            throw new DalIDNotFoundException($"Sale with id: {s.Id} was not found");
     }
+
+
 }

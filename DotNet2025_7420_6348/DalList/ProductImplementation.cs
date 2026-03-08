@@ -1,5 +1,6 @@
 ﻿using DO;
 using DalApi;
+using System.Linq;
 
 namespace Dal;
 
@@ -19,7 +20,7 @@ internal class ProductImplementation : IProduct
         if (DataSource.Products.Exists(prod => prod != null && prod.Id == id))
             DataSource.Products.Remove(DataSource.Products.Find(prod => prod!.Id == id));
         else
-            throw new ProductIdNotFoundException(id);
+            throw new DalIDNotFoundException($"Product with id: {id} was not found");
 
     }
 
@@ -28,11 +29,18 @@ internal class ProductImplementation : IProduct
         if (DataSource.Products.Exists(prod => prod != null && prod.Id == id))
             return DataSource.Products.Find(prod => prod!.Id == id);
         else
-            throw new ProductIdNotFoundException(id);
+            throw new DalIDNotFoundException($"Product with id: {id} was not found");
     }
 
-    public List<Product> ReadAll()
+    public Product? Read(Func<Product, bool> filter)
     {
+        return DataSource.Products.FirstOrDefault(filter!);
+    }
+
+    public List<Product?> ReadAll(Func<Product,bool>?filter=null)
+    {
+        if (filter != null)
+            return DataSource.Products.Where<Product>(filter).ToList()!;
         return new List<Product?>(DataSource.Products != null ? DataSource.Products : new List<Product?>())!;
     }
 
@@ -44,7 +52,7 @@ internal class ProductImplementation : IProduct
             DataSource.Products.Add(p);
         }
         else
-            throw new ProductIdNotFoundException(p.Id);
+            throw new DalIDNotFoundException($"Product with id: {p.Id} was not found");
 
     }
 }

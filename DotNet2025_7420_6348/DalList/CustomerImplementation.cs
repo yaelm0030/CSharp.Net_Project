@@ -13,7 +13,7 @@ internal class CustomerImplementation : ICustomer
             return c.Id;
         }
         else
-            throw new CustomerAlreadyExistsException($"Customer With id: {c.Id} Already Exists");
+            throw new DalAlreadyExists($"Customer with id: {c.Id} already exists");
     }
 
     public void Delete(int id)
@@ -21,7 +21,7 @@ internal class CustomerImplementation : ICustomer
         if (DataSource.Customers.Exists(cus => cus != null && cus.Id == id))
             DataSource.Customers.Remove(DataSource.Customers.Find(cus => cus!.Id == id));
         else
-            throw new CustomerIdNotFoundException(id);
+            throw new DalIDNotFoundException($"Customer with id: {id} was not found");
     }
 
     public Customer? Read(int id)
@@ -30,11 +30,18 @@ internal class CustomerImplementation : ICustomer
         if (DataSource.Customers.Exists(cus => cus != null && cus.Id == id))
             return DataSource.Customers.Find(cus => cus!.Id == id);
         else
-            throw new CustomerIdNotFoundException(id);
+            throw new DalIDNotFoundException($"Customer with id: {id} was not found");
     }
 
-    public List<Customer> ReadAll()
+    public Customer? Read(Func<Customer, bool> filter)
     {
+        return DataSource.Customers.FirstOrDefault(filter!);
+    }
+
+    public List<Customer?>ReadAll(Func<Customer, bool>?filter=null)
+    {
+        if(filter!=null)
+            return DataSource.Customers!.Where<Customer>(filter).ToList()!;
         return new List<Customer?>(DataSource.Customers != null ? DataSource.Customers : new List<Customer?>())!;
     }
 
@@ -46,6 +53,6 @@ internal class CustomerImplementation : ICustomer
             DataSource.Customers.Add(c);
         }
         else
-            throw new CustomerIdNotFoundException(c.Id);
+            throw new DalIDNotFoundException($"Customer with id: {c.Id} was not found");
     }
 }

@@ -4,10 +4,10 @@ namespace DalApi;
 
 public interface ICustomer:ICrud<Customer>
 {
-    //האם תקין לשנות את הרשאת הישויות בdo לpublic? כדי להשתמש בהן כאן? לעדכן את חני ואסתי
     int Create(Customer c);
     Customer? Read(int id);
-    List<Customer> ReadAll();
+    Customer? Read(Func<Customer, bool> filter);
+    List<Customer?> ReadAll(Func<Customer, bool>?filter=null);
     void Update(Customer c);
     void Delete(int id);
 }
