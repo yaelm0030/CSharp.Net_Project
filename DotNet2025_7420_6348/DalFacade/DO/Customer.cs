@@ -7,11 +7,14 @@ using System.Threading.Tasks;
 namespace DO
 {
     public record Customer(
-        int Id=0,
-        string Name="",
-        string Address="",
-        string PhoneNumber=""
+        int Id,
+        string Name,
+        string Address,
+        string PhoneNumber
         )
     {
+        public Customer() : this(0,"","","")
+        { }
     }
+
 }

@@ -26,10 +26,11 @@ internal class ProductImplementation : IProduct
 
     public Product? Read(int id)
     {
-        if (DataSource.Products.Exists(prod => prod != null && prod.Id == id))
-            return DataSource.Products.Find(prod => prod!.Id == id);
-        else
-            throw new DalIDNotFoundException($"Product with id: {id} was not found");
+        return DataSource.Products.FirstOrDefault(p=>p.Id==id);
+        //if (DataSource.Products.Exists(prod => prod != null && prod.Id == id))
+        //    return DataSource.Products.Find(prod => prod!.Id == id);
+        //else
+        //    throw new DalIDNotFoundException($"Product with id: {id} was not found");
     }
 
     public Product? Read(Func<Product, bool> filter)

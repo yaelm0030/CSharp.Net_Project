@@ -6,22 +6,22 @@ namespace DalTest;
 
 public static class Initialization
 {
-    private static IDal s_dal=new DalList();
+    private static IDal s_dal;
     //רשימה של המוצרים הקיימים בשביל להשתמש בהם באתחול המבצעים
     private static void CreateSales()
     {
-        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(22000000).Id,2,3.4,true,DateTime.Now,DateTime.Now.AddDays(7)));
-        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(22000001).Id, 4, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
-        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(22000002).Id, 1, 6.8, true, DateTime.Now, DateTime.Now.AddDays(7)));
-        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(22000003).Id, 10, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(220).Id,2,3.4,true,DateTime.Now,DateTime.Now.AddDays(7)));
+        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(220).Id, 4, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(220).Id, 1, 6.8, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(220).Id, 10, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
     }
 
     private static void CreateProducts()
     {
-        s_dal.Product.Create(new Product(1,"",Category.cat1,1.1,4));
-        s_dal.Product.Create(new Product(1,"",Category.cat1,1.1,4));
-        s_dal.Product.Create(new Product(1,"",Category.cat1,1.1,4));
-        s_dal.Product.Create(new Product(1,"",Category.cat1,1.1,4));
+        s_dal.Product.Create(new Product(1,"productname1",Category.cat1,1.1,4));
+        s_dal.Product.Create(new Product(1,"productname2",Category.cat1,1.1,4));
+        s_dal.Product.Create(new Product(1,"productname3",Category.cat1,1.1,4));
+        s_dal.Product.Create(new Product(1,"productname4",Category.cat1,1.1,4));
     }
 
     private static void CreateCustomers()

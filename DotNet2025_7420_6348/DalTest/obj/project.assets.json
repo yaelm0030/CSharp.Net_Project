@@ -24,6 +24,19 @@
         "runtime": {
           "bin/placeholder/DalList.dll": {}
         }
+      },
+      "DalXml/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DalFacade": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DalXml.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalXml.dll": {}
+        }
       }
     }
   },
@@ -37,12 +50,18 @@
       "type": "project",
       "path": "../DalList/DalList.csproj",
       "msbuildProject": "../DalList/DalList.csproj"
+    },
+    "DalXml/1.0.0": {
+      "type": "project",
+      "path": "../DalXml/DalXml.csproj",
+      "msbuildProject": "../DalXml/DalXml.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "DalFacade >= 1.0.0",
-      "DalList >= 1.0.0"
+      "DalList >= 1.0.0",
+      "DalXml >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -83,6 +102,9 @@
             },
             "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj": {
               "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj"
+            },
+            "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj": {
+              "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj"
             }
           }
         }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sale>
+    <Id>110</Id>
+    <ProductId>220</ProductId>
+    <AmountNeeded>2</AmountNeeded>
+    <PriceAfterDiscount>3.4</PriceAfterDiscount>
+    <ClubCustomersSale>true</ClubCustomersSale>
+    <SaleBeginningDate>2026-03-10T20:04:08.3744907+02:00</SaleBeginningDate>
+    <SaleEndingDate>2026-03-17T20:04:08.3771132+02:00</SaleEndingDate>
+  </Sale>
+  <Sale>
+    <Id>111</Id>
+    <ProductId>220</ProductId>
+    <AmountNeeded>4</AmountNeeded>
+    <PriceAfterDiscount>10</PriceAfterDiscount>
+    <ClubCustomersSale>true</ClubCustomersSale>
+    <SaleBeginningDate>2026-03-10T20:04:08.4089743+02:00</SaleBeginningDate>
+    <SaleEndingDate>2026-03-17T20:04:08.4089848+02:00</SaleEndingDate>
+  </Sale>
+  <Sale>
+    <Id>112</Id>
+    <ProductId>220</ProductId>
+    <AmountNeeded>1</AmountNeeded>
+    <PriceAfterDiscount>6.8</PriceAfterDiscount>
+    <ClubCustomersSale>true</ClubCustomersSale>
+    <SaleBeginningDate>2026-03-10T20:04:08.4197015+02:00</SaleBeginningDate>
+    <SaleEndingDate>2026-03-17T20:04:08.4197058+02:00</SaleEndingDate>
+  </Sale>
+  <Sale>
+    <Id>113</Id>
+    <ProductId>220</ProductId>
+    <AmountNeeded>10</AmountNeeded>
+    <PriceAfterDiscount>10</PriceAfterDiscount>
+    <ClubCustomersSale>true</ClubCustomersSale>
+    <SaleBeginningDate>2026-03-10T20:04:08.4212436+02:00</SaleBeginningDate>
+    <SaleEndingDate>2026-03-17T20:04:08.4212457+02:00</SaleEndingDate>
+  </Sale>
+</ArrayOfSale>
