@@ -67,9 +67,11 @@ internal class ProductImplementaion : IProduct
     {
 
         List<Product> products = ReadAll();
-        products.FirstOrDefault(p => filter(p));
+        Product foundProd= products.FirstOrDefault(p => filter(p));
+        if (foundProd != null)
+            return foundProd;
+        else throw new DalIDNotFoundException("Product with requested conditions was not found");
 
-        return null;
     }
 
     public List<Product?> ReadAll(Func<Product, bool>? filter = null)

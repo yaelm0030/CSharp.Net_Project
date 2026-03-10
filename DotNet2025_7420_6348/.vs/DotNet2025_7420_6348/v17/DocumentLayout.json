@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "DalXml\\ProductImplementaion.cs",
               "ToolTip": "C:\\Users\\yaelm\\OneDrive\\\u05E9\u05D5\u05DC\u05D7\u05DF \u05D4\u05E2\u05D1\u05D5\u05D3\u05D4\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05EA\u05DB\u05E0\u05D5\u05EA\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\ProductImplementaion.cs",
               "RelativeToolTip": "DalXml\\ProductImplementaion.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwE0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T17:49:43.116Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "DalTest\\Initialization.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T17:27:38.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T17:27:38.914Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "DalTest\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T17:28:48.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T17:28:48.883Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "DalXml\\Config.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T15:20:30.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T15:20:30.64Z"
             }
           ]
         }
