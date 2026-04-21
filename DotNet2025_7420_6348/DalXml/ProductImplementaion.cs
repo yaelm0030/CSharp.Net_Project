@@ -60,6 +60,7 @@ internal class ProductImplementaion : IProduct
                 foundProd.Element("InStock") != null ? int.Parse(foundProd.Element("InStock").Value) : 1);
         }
         else
+         
             throw new DalIDNotFoundException($"Product with id: {id} was not found");
     }
 
