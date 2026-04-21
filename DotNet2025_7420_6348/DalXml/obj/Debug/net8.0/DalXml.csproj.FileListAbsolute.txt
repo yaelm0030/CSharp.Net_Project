@@ -14,3 +14,19 @@ C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.ne
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\refint\DalXml.dll
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.pdb
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\ref\DalXml.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\bin\Debug\net8.0\DalXml.deps.json
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\bin\Debug\net8.0\DalXml.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\bin\Debug\net8.0\DalXml.pdb
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\bin\Debug\net8.0\DalFacade.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.csproj.AssemblyReference.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfoInputs.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfo.cs
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.csproj.CoreCompileInputs.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.sourcelink.json
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.csproj.Up2Date
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\refint\DalXml.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\DalXml.pdb
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalXml\obj\Debug\net8.0\ref\DalXml.dll

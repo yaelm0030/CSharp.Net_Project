@@ -32,9 +32,9 @@ public static class Initialization
         s_dal.Customer.Create(new Customer(326287720, "Efrat Gross", "Rashbi 26", "0548501231"));
     }
 
-    public static void Initialize(IDal s_dal_f)
+    public static void Initialize()
     {
-        s_dal = s_dal_f;
+        s_dal = DalApi.Factory.Get;
         CreateProducts();
         CreateCustomers();
         CreateSales();

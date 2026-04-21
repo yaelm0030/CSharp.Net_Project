@@ -32,3 +32,20 @@ M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\refi
 M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.pdb
 M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\ref\DalTest.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.exe
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.deps.json
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.runtimeconfig.json
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.pdb
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.pdb
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\ref\DalTest.dll

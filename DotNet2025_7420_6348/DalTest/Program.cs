@@ -13,13 +13,15 @@ using System.Threading.Channels;
 internal class Program
 {
     //private static readonly IDal s_dal = new DalList();
-    private static readonly IDal s_dal = DalXml.DalXml.Instance;
+    //private static readonly IDal s_dal = DalXml.DalXml.Instance;
+    private static readonly IDal s_dal = DalApi.Factory.Get;
+
 
     private static void Main(string[] args)
     {
         try
         {
-            //Initialization.Initialize(s_dal);
+            //Initialization.Initialize();
             MainMenu();
         }
         catch (ProductIdNotFoundException pidnfEx)
