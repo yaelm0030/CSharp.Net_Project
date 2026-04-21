@@ -21,33 +21,18 @@ internal class Program
     {
         try
         {
-            //Initialization.Initialize();
+            Initialization.Initialize();
             MainMenu();
         }
-        catch (ProductIdNotFoundException pidnfEx)
+        catch (DalIDNotFoundException pidnfEx)
         {
             Console.WriteLine(pidnfEx.Message);
         }
-        catch (SaleIdNotFoundException sidnfEx)
-        {
-            Console.WriteLine(sidnfEx.Message);
-        }
-        catch (CustomerIdNotFoundException cidnfEx)
-        {
-            Console.WriteLine(cidnfEx.Message);
-        }
-        catch (ProductAlreadyExistsException paeEx)
+        catch (DalAlreadyExists paeEx)
         {
             Console.WriteLine(paeEx.Message);
         }
-        catch (SaleAlreadyExistsException saeEx)
-        {
-            Console.WriteLine(saeEx.Message);
-        }
-        catch (CustomerAlreadyExistsException caeEx)
-        {
-            Console.WriteLine(caeEx.Message);
-        }
+
         catch (Exception ex)
         {
             Console.WriteLine(ex.Message);

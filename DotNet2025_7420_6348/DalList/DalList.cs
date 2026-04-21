@@ -13,8 +13,8 @@ namespace Dal
         {
             
         }
-        private DalList instance { get; } = new DalList();
-        public DalList Instance { get { return instance; } }
+        private static DalList instance { get; } = new DalList();
+        public static DalList Instance { get { return instance; } }
         public ICustomer Customer =>new CustomerImplementation();
         public ISale Sale => new SaleImplementation();
         public IProduct Product => new ProductImplementation();
