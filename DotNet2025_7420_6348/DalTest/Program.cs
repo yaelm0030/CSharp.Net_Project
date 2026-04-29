@@ -21,7 +21,7 @@ internal class Program
     {
         try
         {
-            Initialization.Initialize();
+            //Initialization.Initialize();
             MainMenu();
         }
         catch (DalIDNotFoundException pidnfEx)

@@ -15,3 +15,20 @@ C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\BLT
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.pdb
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.genruntimeconfig.cache
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\ref\BLTest.dll
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.exe
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.deps.json
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.runtimeconfig.json
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.dll
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.pdb
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.AssemblyReference.cache
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.GeneratedMSBuildEditorConfig.editorconfig
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.AssemblyInfoInputs.cache
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.AssemblyInfo.cs
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.CoreCompileInputs.cache
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.sourcelink.json
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.Up2Date
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.dll
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\refint\BLTest.dll
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.pdb
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.genruntimeconfig.cache
+M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\ref\BLTest.dll
