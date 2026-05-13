@@ -32,3 +32,20 @@ M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\refin
 M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.pdb
 M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.genruntimeconfig.cache
 M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\ref\BLTest.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.exe
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.deps.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.runtimeconfig.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.AssemblyReference.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.GeneratedMSBuildEditorConfig.editorconfig
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.AssemblyInfoInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.AssemblyInfo.cs
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.CoreCompileInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.sourcelink.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.Up2Date
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\refint\BLTest.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.genruntimeconfig.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\ref\BLTest.dll

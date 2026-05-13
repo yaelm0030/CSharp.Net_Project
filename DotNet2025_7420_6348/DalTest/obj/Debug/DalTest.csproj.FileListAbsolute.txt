@@ -49,3 +49,20 @@ C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\Dal
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.pdb
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\ref\DalTest.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.exe
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.deps.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.runtimeconfig.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.sourcelink.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.Up2Date
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\refint\DalTest.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\ref\DalTest.dll

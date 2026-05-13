@@ -7,7 +7,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "DalFacade": "1.0.0",
-          "DalList": "1.0.0"
+          "DalList": "1.0.0",
+          "DalXml": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BL.dll": {}
@@ -103,23 +104,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chavikoninsky\\.nuget\\packages\\": {},
+    "C:\\Users\\מורה\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\BLTest.csproj",
+      "projectUniqueName": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\BLTest.csproj",
       "projectName": "BLTest",
-      "projectPath": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\BLTest.csproj",
-      "packagesPath": "C:\\Users\\chavikoninsky\\.nuget\\packages\\",
-      "outputPath": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\obj\\",
+      "projectPath": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\BLTest.csproj",
+      "packagesPath": "C:\\Users\\מורה\\.nuget\\packages\\",
+      "outputPath": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\chavikoninsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\מורה\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -135,11 +136,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BL.csproj": {
-              "projectPath": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BL.csproj"
+            "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BL.csproj": {
+              "projectPath": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BL.csproj"
             },
-            "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj": {
-              "projectPath": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj"
+            "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj": {
+              "projectPath": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj"
             }
           }
         }

@@ -40,3 +40,17 @@ C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\Dal
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\refint\DalList.dll
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.pdb
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\ref\DalList.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalList.deps.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalList.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalList.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.AssemblyInfo.cs
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.sourcelink.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.csproj.Up2Date
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\refint\DalList.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\ref\DalList.dll

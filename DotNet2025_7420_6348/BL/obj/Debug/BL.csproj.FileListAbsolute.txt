@@ -26,3 +26,17 @@ M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.dll
 M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\refint\BL.dll
 M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.pdb
 M:\c#.net project\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\ref\BL.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\BL.deps.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\BL.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\BL.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.AssemblyInfo.cs
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.sourcelink.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.csproj.Up2Date
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\refint\BL.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\BL.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BL\obj\Debug\ref\BL.dll

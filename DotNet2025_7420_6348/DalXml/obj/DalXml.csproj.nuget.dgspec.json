@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj": {}
+    "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj": {}
   },
   "projects": {
-    "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
+    "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\chavikoninsky\\.nuget\\packages\\",
-        "outputPath": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\obj\\",
+        "projectPath": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\מורה\\.nuget\\packages\\",
+        "outputPath": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\chavikoninsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\מורה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,20 +69,20 @@
         }
       }
     },
-    "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj": {
+    "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
+        "projectUniqueName": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
         "projectName": "DalXml",
-        "projectPath": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
-        "packagesPath": "C:\\Users\\chavikoninsky\\.nuget\\packages\\",
-        "outputPath": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\obj\\",
+        "projectPath": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
+        "packagesPath": "C:\\Users\\מורה\\.nuget\\packages\\",
+        "outputPath": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\chavikoninsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\מורה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\c#.net project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj"
+              "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "T:\\Seminar\\Handasaim\\יד\\בינה\\חוי קונינסקי ויעל מקובצקי\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj"
               }
             }
           }

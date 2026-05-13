@@ -34,3 +34,15 @@ C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\Dal
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\refint\DalFacade.dll
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.pdb
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\ref\DalFacade.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalFacade.deps.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalFacade.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalFacade.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.sourcelink.json
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\refint\DalFacade.dll
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.pdb
+T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\ref\DalFacade.dll
