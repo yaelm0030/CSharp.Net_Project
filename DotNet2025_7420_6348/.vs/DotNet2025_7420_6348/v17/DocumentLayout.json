@@ -1,18 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "T:\\Seminar\\Handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\",
+  "WorkspaceRootPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{650ED190-97E1-4A4F-8C0D-B24DF6958E3A}|DalTest\\DalTest.csproj|t:\\seminar\\handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\csharp.net_project\\dotnet2025_7420_6348\\daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{650ED190-97E1-4A4F-8C0D-B24DF6958E3A}|DalTest\\DalTest.csproj|solutionrelative:daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8EC5DDF-21E8-42DD-ADA7-B95584E3B92C}|UI\\UI.csproj|c:\\users\\yael\\desktop\\dotnet_project\\csharp.net_project\\dotnet2025_7420_6348\\ui\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D8EC5DDF-21E8-42DD-ADA7-B95584E3B92C}|UI\\UI.csproj|solutionrelative:ui\\cashier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40CC6B9B-38FB-4B5E-9F5F-B1B5D37BDA5E}|DalXml\\DalXml.csproj|t:\\seminar\\handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\csharp.net_project\\dotnet2025_7420_6348\\dalxml\\dalxml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{40CC6B9B-38FB-4B5E-9F5F-B1B5D37BDA5E}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\dalxml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D8EC5DDF-21E8-42DD-ADA7-B95584E3B92C}|UI\\UI.csproj|c:\\users\\yael\\desktop\\dotnet_project\\csharp.net_project\\dotnet2025_7420_6348\\ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D8EC5DDF-21E8-42DD-ADA7-B95584E3B92C}|UI\\UI.csproj|solutionrelative:ui\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEF073F5-6461-48E5-A0BC-C00D7A291E32}|DalList\\DalList.csproj|t:\\seminar\\handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\csharp.net_project\\dotnet2025_7420_6348\\dallist\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEF073F5-6461-48E5-A0BC-C00D7A291E32}|DalList\\DalList.csproj|solutionrelative:dallist\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|c:\\users\\yael\\desktop\\dotnet_project\\csharp.net_project\\dotnet2025_7420_6348\\bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|solutionrelative:bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|c:\\users\\yael\\desktop\\dotnet_project\\csharp.net_project\\dotnet2025_7420_6348\\bl\\bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|solutionrelative:bl\\bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{428CE072-8874-4914-9211-30C8CDE0AD14}|BLTest\\BLTest.csproj|c:\\users\\yael\\desktop\\dotnet_project\\csharp.net_project\\dotnet2025_7420_6348\\bltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{428CE072-8874-4914-9211-30C8CDE0AD14}|BLTest\\BLTest.csproj|solutionrelative:bltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|c:\\users\\yael\\desktop\\dotnet_project\\csharp.net_project\\dotnet2025_7420_6348\\bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|c:\\users\\yael\\desktop\\dotnet_project\\csharp.net_project\\dotnet2025_7420_6348\\bl\\bo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|solutionrelative:bl\\bo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|c:\\users\\yael\\desktop\\dotnet_project\\csharp.net_project\\dotnet2025_7420_6348\\bl\\blapi\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|solutionrelative:bl\\blapi\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|c:\\users\\yael\\desktop\\dotnet_project\\csharp.net_project\\dotnet2025_7420_6348\\bl\\blimplementation\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7970B29F-5E11-4723-8A1A-10B0068603A1}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62081724-88AA-4CA5-A178-AA423BFBD1AB}|xml{62081724-88AA-4CA5-A178-AA423BFBD1AB}|C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\xml\\dal-config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{62081724-88AA-4CA5-A178-AA423BFBD1AB}|xml{62081724-88AA-4CA5-A178-AA423BFBD1AB}|solutionrelative:xml\\dal-config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +55,129 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Initialization.cs",
-              "DocumentMoniker": "T:\\Seminar\\Handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\Initialization.cs",
-              "RelativeDocumentMoniker": "DalTest\\Initialization.cs",
-              "ToolTip": "T:\\Seminar\\Handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\Initialization.cs",
-              "RelativeToolTip": "DalTest\\Initialization.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Title": "cashier.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\UI\\cashier.cs",
+              "RelativeDocumentMoniker": "UI\\cashier.cs",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\UI\\cashier.cs [Design]",
+              "RelativeToolTip": "UI\\cashier.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T09:25:41.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataSource.cs",
-              "DocumentMoniker": "T:\\Seminar\\Handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DataSource.cs",
-              "RelativeDocumentMoniker": "DalList\\DataSource.cs",
-              "ToolTip": "T:\\Seminar\\Handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DataSource.cs",
-              "RelativeToolTip": "DalList\\DataSource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T09:26:27.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T20:44:37.636Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DalXml",
-              "DocumentMoniker": "T:\\Seminar\\Handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
-              "RelativeDocumentMoniker": "DalXml\\DalXml.csproj",
-              "ToolTip": "T:\\Seminar\\Handasaim\\\u05D9\u05D3\\\u05D1\u05D9\u05E0\u05D4\\\u05D7\u05D5\u05D9 \u05E7\u05D5\u05E0\u05D9\u05E0\u05E1\u05E7\u05D9 \u05D5\u05D9\u05E2\u05DC \u05DE\u05E7\u05D5\u05D1\u05E6\u05E7\u05D9\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
-              "RelativeToolTip": "DalXml\\DalXml.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-13T09:21:46.866Z",
+              "Title": "Manager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\UI\\Manager.cs",
+              "RelativeDocumentMoniker": "UI\\Manager.cs",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\UI\\Manager.cs [Design]",
+              "RelativeToolTip": "UI\\Manager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:44:23.102Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductInOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BO\\ProductInOrder.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\ProductInOrder.cs",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BO\\ProductInOrder.cs",
+              "RelativeToolTip": "BL\\BO\\ProductInOrder.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wB4AAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:39:52.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BO\\Product.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\Product.cs",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BO\\Product.cs",
+              "RelativeToolTip": "BL\\BO\\Product.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:35:18.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BO\\Order.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\Order.cs",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BO\\Order.cs",
+              "RelativeToolTip": "BL\\BO\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:49:13.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlApi\\IOrder.cs",
+              "RelativeDocumentMoniker": "BL\\BlApi\\IOrder.cs",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlApi\\IOrder.cs",
+              "RelativeToolTip": "BL\\BlApi\\IOrder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:44:34.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\Program.cs",
+              "RelativeDocumentMoniker": "BLTest\\Program.cs",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\Program.cs",
+              "RelativeToolTip": "BLTest\\Program.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAkwJsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:38:09.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlImplementation\\ProductImplementation.cs",
+              "RelativeDocumentMoniker": "BL\\BlImplementation\\ProductImplementation.cs",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlImplementation\\ProductImplementation.cs",
+              "RelativeToolTip": "BL\\BlImplementation\\ProductImplementation.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:44:25.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlImplementation\\OrderImplementation.cs",
+              "RelativeDocumentMoniker": "BL\\BlImplementation\\OrderImplementation.cs",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BlImplementation\\OrderImplementation.cs",
+              "RelativeToolTip": "BL\\BlImplementation\\OrderImplementation.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:44:23.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dal-config.xml",
+              "DocumentMoniker": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\xml\\dal-config.xml",
+              "RelativeDocumentMoniker": "xml\\dal-config.xml",
+              "ToolTip": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\xml\\dal-config.xml",
+              "RelativeToolTip": "xml\\dal-config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-13T17:39:33.817Z",
               "EditorCaption": ""
             }
           ]

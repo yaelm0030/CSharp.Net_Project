@@ -106,6 +106,10 @@ namespace BlImplementation
         {
             try
             {
+                if (filter == null)
+                {
+                    return _dal.Sale.ReadAll().Select(p => p.ConvertDOSaleToBOSale()).ToList();
+                }
                 return _dal.Sale.ReadAll().Select(p => p.ConvertDOSaleToBOSale()).Where(filter!).ToList()!;
             }
             catch (DO.DalConfigExceptions dce)

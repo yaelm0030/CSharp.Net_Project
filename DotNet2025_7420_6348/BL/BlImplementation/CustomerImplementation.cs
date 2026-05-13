@@ -107,6 +107,10 @@ namespace BlImplementation
         {
             try
             {
+                if (filter == null)
+                {
+                    return _dal.Customer.ReadAll().Select(p=>p.ConvertDOCustomerToBOCustomer()) .ToList();
+                }
                 return _dal.Customer.ReadAll().Select(p => p.ConvertDOCustomerToBOCustomer()).Where(filter!).ToList()!;
             }
             catch (DO.DalConfigExceptions dce)
@@ -124,7 +128,7 @@ namespace BlImplementation
         {
             try
             {
-                _dal.Customer.Create(Tools.ConvertBOCustomerToDOCustomer(c));
+                _dal.Customer.Update(Tools.ConvertBOCustomerToDOCustomer(c));
             }
             catch (DO.DalAlreadyExists dae)
             {

@@ -22,5 +22,10 @@ namespace BO
             Price = price;
             InStock = inStock;
         }
+
+        public override string ToString()
+        {
+            return $"Id= {Id}, Name= {Name}, Category={Category}, Price={Price}, InStock= {InStock}";
+        }
     }
 }

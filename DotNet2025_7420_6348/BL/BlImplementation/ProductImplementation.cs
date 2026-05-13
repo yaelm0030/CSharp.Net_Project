@@ -130,6 +130,10 @@ namespace BlImplementation
         {
             try
             {
+                if (filter == null)
+                {
+                    return _dal.Product.ReadAll().Select(p => p.ConvertDOProductToBOProduct()).ToList();
+                }
                 return _dal.Product.ReadAll().Select(p=>p.ConvertDOProductToBOProduct()).Where(filter!).ToList()!;
             }
             catch (DO.DalConfigExceptions dce)
@@ -147,7 +151,7 @@ namespace BlImplementation
         {
             try
             {
-                _dal.Product.Create(Tools.ConvertBOProductToDOProduct(p));
+                _dal.Product.Update(Tools.ConvertBOProductToDOProduct(p));
             }
             catch (DO.DalAlreadyExists dae)
             {

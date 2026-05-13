@@ -25,5 +25,10 @@ namespace BO
             Sales = sales;
             FinalPrice = finalPrice;
         }
+
+        public override string ToString()
+        {
+            return $"Id= {Id}, Name={Name}, Price={Price}, Amount= {Amount}, Sales= {Sales}, FinalPrice= {FinalPrice}";
+        }
     }
 }

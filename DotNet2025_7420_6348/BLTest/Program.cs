@@ -53,7 +53,8 @@ internal class Program
         Console.WriteLine("1 for Products");
         Console.WriteLine("2 for Sales");
         Console.WriteLine("3 for Customers");
-        Console.WriteLine("4 to Quit");
+        Console.WriteLine("4 for Orders");
+        Console.WriteLine("5 to Quit");
         int choice;
         int.TryParse(Console.ReadLine(), out choice);
         switch (choice)
@@ -61,9 +62,11 @@ internal class Program
             case 1: SubMenuProduct(); break;
             case 2: SubMenuSale(); break;
             case 3: SubMenuCustomer(); break;
+            case 4: SubMenuOrder(); break;
             default: break;
         }
     }
+
 
 
     public static int PrintSubMenu(string dep)
@@ -75,6 +78,16 @@ internal class Program
         Console.WriteLine($"For deleting a specific {dep} press 4");
         Console.WriteLine($"For returning to the main menu press 5");
         Console.WriteLine($"For quiting press any other key");
+
+        int choice;
+        if (!int.TryParse(Console.ReadLine(), out choice))
+            choice = 6;
+        return choice;
+    }
+    public static int PrintSubMenuOrder()
+    {
+        Console.WriteLine("For adding a product to your order press 0");
+        Console.WriteLine("For getting the order's total price press 1");
 
         int choice;
         if (!int.TryParse(Console.ReadLine(), out choice))
@@ -124,6 +137,44 @@ internal class Program
             default: break;
         }
 
+    }
+    private static void SubMenuOrder()
+    {
+
+        int choice = PrintSubMenuOrder();
+        int productId;
+        Order order = new Order(false, new List<ProductInOrder>(), 0.0);
+        switch (choice)
+        {
+            case 0: int amount;
+                (productId, amount) = AskForProductToAddToOrder();
+                List<SaleOfProduct>sales = s_dal.Order.AddProductToOrder(order,productId,amount);
+                if (sales != null && sales.Count > 0)
+                    foreach (SaleOfProduct sale in sales)
+                        Console.WriteLine(sale);
+                foreach(ProductInOrder prod in order.Products)
+                    Console.WriteLine(prod);
+                SubMenuOrder();
+                break;
+            case 1:
+                s_dal.Order.CalcTotalPrice(order);
+                Console.WriteLine(order.FinalPrice);
+                SubMenuOrder();
+                break;
+        }
+    }
+
+    private static (int productId, int amount) AskForProductToAddToOrder()
+    {
+        int productId;
+        Console.WriteLine("Insert product id to add to your order");
+        if (!int.TryParse(Console.ReadLine(), out productId))
+            productId = 220;
+        int amount;
+        Console.WriteLine("Insert amount");
+        if (!int.TryParse(Console.ReadLine(), out amount))
+            amount = 10;
+        return (productId, amount);
     }
 
     private static Product AskProduct(int code = 0)
@@ -185,7 +236,6 @@ internal class Program
         return new Customer(identity, name, address, phone);
     }
 
-
     private static void AddProduct()
     {
         Product p = AskProduct();
@@ -226,7 +276,6 @@ internal class Program
         Customer c = AskCustomer(id);
         s_dal.Customer.Update(c);
     }
-
     private static void ReadAll<T>(ICrud<T> icrud)
     {
         List<T> lst = icrud.ReadAll();
