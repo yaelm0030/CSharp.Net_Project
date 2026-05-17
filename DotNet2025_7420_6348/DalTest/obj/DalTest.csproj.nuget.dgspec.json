@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj": {}
+    "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\Yael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\obj\\",
+        "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\yaelm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yaelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj": {
+    "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\Yael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\obj\\",
+        "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\yaelm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yaelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,14 +91,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -112,8 +113,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -134,24 +134,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj": {
+    "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj",
-        "packagesPath": "C:\\Users\\Yael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\obj\\",
+        "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj",
+        "packagesPath": "C:\\Users\\yaelm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yaelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -160,20 +160,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj"
               },
-              "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj": {
-                "projectPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj"
+              "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalList\\DalList.csproj"
               },
-              "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj": {
-                "projectPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj"
+              "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj": {
+                "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj"
               }
             }
           }
@@ -187,8 +188,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -209,24 +209,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj": {
+    "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
+        "projectUniqueName": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
         "projectName": "DalXml",
-        "projectPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
-        "packagesPath": "C:\\Users\\Yael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\obj\\",
+        "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\DalXml.csproj",
+        "packagesPath": "C:\\Users\\yaelm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalXml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yaelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -235,14 +235,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "C:\\Users\\Yael\\Desktop\\dotnet_project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\repo\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -256,8 +257,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -278,7 +278,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

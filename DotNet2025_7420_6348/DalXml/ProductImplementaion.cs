@@ -1,12 +1,7 @@
 ﻿using DalApi;
 using DO;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
+using DalXml;
 
 namespace Dal;
 
@@ -17,7 +12,7 @@ internal class ProductImplementaion : IProduct
     {
         XElement productsList = XElement.Load(PRODUCTS_FILE_PATH);
 
-        int myId = DalXml.Config.ProductNum;
+        int myId = Config.ProductNum;
 
         productsList.Add(new XElement("Product",
             new XElement("Id", myId),

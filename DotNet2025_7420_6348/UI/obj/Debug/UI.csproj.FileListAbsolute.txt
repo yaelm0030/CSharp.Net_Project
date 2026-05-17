@@ -17,3 +17,23 @@ C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.pdb
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.genruntimeconfig.cache
 C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\ref\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.exe
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.deps.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.runtimeconfig.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.cashier.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Manager.resources
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.sourcelink.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\refint\UI.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\ref\UI.dll

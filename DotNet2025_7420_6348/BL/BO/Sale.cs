@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,6 +26,11 @@ namespace BO
             ClubCustomerSale = clubCustomerSale;
             SaleBeginningDate = saleBeginningDate;
             SaleEndingDate = saleEndingDate;
+
+        }
+        public override string ToString()
+        {
+            return "Id= "+Id+ ", ProductId= " + ProductId + ", AmountNeeded= " + AmountNeeded + ", PriceAfterDiscount= " + PriceAfterDiscount + ", ClubCustomerSale= " + ClubCustomerSale + ", SaleBeginningDate= " + SaleBeginningDate + ", SaleEndingDate= " + SaleEndingDate;
         }
     }
 }

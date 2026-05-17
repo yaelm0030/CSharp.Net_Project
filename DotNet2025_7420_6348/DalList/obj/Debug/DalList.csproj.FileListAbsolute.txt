@@ -54,3 +54,17 @@ T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצק
 T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\refint\DalList.dll
 T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.pdb
 T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\ref\DalList.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalList.deps.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalList.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalList.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\refint\DalList.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\DalList.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalList\obj\Debug\ref\DalList.dll

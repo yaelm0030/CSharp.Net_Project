@@ -49,3 +49,20 @@ T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצק
 T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.pdb
 T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.genruntimeconfig.cache
 T:\Seminar\Handasaim\יד\בינה\חוי קונינסקי ויעל מקובצקי\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\ref\BLTest.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.exe
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.deps.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.runtimeconfig.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.AssemblyReference.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.AssemblyInfoInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.AssemblyInfo.cs
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.CoreCompileInputs.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.sourcelink.json
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.Up2Date
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\refint\BLTest.dll
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.pdb
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.genruntimeconfig.cache
+C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\ref\BLTest.dll

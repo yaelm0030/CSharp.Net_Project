@@ -1,4 +1,5 @@
-using DalApi;
+using BO;
+using BlApi;
 
 namespace UI
 {
@@ -7,7 +8,12 @@ namespace UI
         public cashier()
         {
             InitializeComponent();
-            productsList.DataSource = Factory.Get.Product.ReadAll();
+
+            // Products in stock grid
+            productsInStockGrid.DataSource = Factory.Get().Product.ReadAll();
+            productsInStockGrid.Columns["Id"].FillWeight = 50;
+            productsInStockGrid.Columns["Name"].FillWeight = 150;
         }
+
     }
 }

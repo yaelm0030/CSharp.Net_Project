@@ -10,10 +10,10 @@ public static class Initialization
     //רשימה של המוצרים הקיימים בשביל להשתמש בהם באתחול המבצעים
     private static void CreateSales()
     {
-        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(22000000).Id,2,3.4,true,DateTime.Now,DateTime.Now.AddDays(7)));
-        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(22000000).Id, 4, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
-        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(22000000).Id, 1, 6.8, true, DateTime.Now, DateTime.Now.AddDays(7)));
-        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(22000000).Id, 10, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(220).Id,2,3.4,true,DateTime.Now,DateTime.Now.AddDays(7)));
+        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(220).Id, 4, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(220).Id, 1, 6.8, true, DateTime.Now, DateTime.Now.AddDays(7)));
+        s_dal.Sale.Create(new Sale(0, s_dal.Product.Read(220).Id, 10, 10, true, DateTime.Now, DateTime.Now.AddDays(7)));
     }
 
     private static void CreateProducts()

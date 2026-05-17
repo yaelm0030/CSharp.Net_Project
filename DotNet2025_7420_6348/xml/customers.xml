@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  
+  <Customer>
+    <Id>216086348</Id>
+    <Name>Yael Makovetzky</Name>
+    <Address>Shderot Yehezkel 13</Address>
+    <PhoneNumber>0534100030</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>346007420</Id>
+    <Name>Chavi Koninski</Name>
+    <Address>Meromei Sade 36</Address>
+    <PhoneNumber>0534120828</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>65677858</Id>
+    <Name>Chaya Makovetzky</Name>
+    <Address>Shderot Yehezkel 13</Address>
+    <PhoneNumber>0527657760</PhoneNumber>
+  </Customer>
+  <Customer>
+    <Id>326287720</Id>
+    <Name>Efrat Gross</Name>
+    <Address>Rashbi 26</Address>
+    <PhoneNumber>0548501231</PhoneNumber>
+  </Customer>
 </ArrayOfCustomer>

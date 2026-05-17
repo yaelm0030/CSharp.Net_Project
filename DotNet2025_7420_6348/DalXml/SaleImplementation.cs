@@ -1,11 +1,7 @@
 ﻿using DalApi;
 using DO;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
+using DalXml;
 
 namespace Dal;
 
@@ -15,7 +11,7 @@ internal class SaleImplementation : ISale
 
     public int Create(Sale s)
     {
-        int myId = DalXml.Config.SaleNum;
+        int myId = Config.SaleNum;
         s=s with { Id = myId };
         List<Sale> salesList;
         XmlSerializer serializer = new XmlSerializer(typeof(List<Sale>));
