@@ -19,5 +19,11 @@ namespace BO
             Products = products;
             FinalPrice = finalPrice;
         }
+        public Order()
+        {
+            ClubCustomer = false;
+            Products = new List<ProductInOrder>();
+            FinalPrice = 0;
+        }
     }
 }

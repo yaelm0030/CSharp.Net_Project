@@ -1,19 +1,28 @@
-using BO;
-using BlApi;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class cashier : Form
+    public partial class Cashier : Form
     {
-        public cashier()
+        private BO.Order order;
+        public Cashier()
         {
             InitializeComponent();
-
-            // Products in stock grid
-            productsInStockGrid.DataSource = Factory.Get().Product.ReadAll();
-            productsInStockGrid.Columns["Id"].FillWeight = 50;
-            productsInStockGrid.Columns["Name"].FillWeight = 150;
         }
 
+        private void createANewOrder(object sender, EventArgs e)
+        {
+            order = new BO.Order(clubCustomerCheckbox.Checked,new List<BO.ProductInOrder>(),0);
+            OrderForm orderForm= new OrderForm(order);
+            orderForm.ShowDialog();
+        }
     }
 }
