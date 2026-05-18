@@ -6,6 +6,7 @@ namespace UI
     public partial class OrderForm : Form
     {
         BO.Order order;
+        IBl _ibl = Factory.Get();
         public OrderForm(BO.Order order)
         {
             InitializeComponent();
@@ -13,7 +14,7 @@ namespace UI
 
 
             // Products in stock grid
-            productsInStockGrid.DataSource = Factory.Get().Product.ReadAll();
+            productsInStockGrid.DataSource = Factory.Get().Product.ReadAll(p => p.InStock > 0);
             productsInStockGrid.Columns["Id"].FillWeight = 50;
             productsInStockGrid.Columns["Name"].FillWeight = 150;
 
@@ -23,40 +24,65 @@ namespace UI
 
         private void addProduct_Click(object sender, EventArgs e)
         {
-            Product product = productsInStockGrid.CurrentRow?.DataBoundItem as Product;
-            ProductInOrder productInOrder;
-            if (product != null)
+            try
             {
-                productInOrder = new ProductInOrder(product.Id, product.Name, product.Price, (int)amountSelector.Value, new List<SaleOfProduct>(), 0);
-                Factory.Get().Order.CalcTotalPriceForProduct(productInOrder);
-                order.Products.Add(productInOrder);
-            }
-            else
-            {
+                ProductInOrder productInOrder;
+                Product product;
                 if (productId.Text.Length > 0)
                 {
                     int productCode;
                     if (int.TryParse(productId.Text, out productCode))
                     {
-                        product = Factory.Get().Product.Read(productCode);
+                        product = _ibl.Product.Read(productCode);
                         if (product != null)
-                        {
-                            productInOrder = new ProductInOrder(product.Id, product.Name, product.Price, (int)amountSelector.Value, new List<SaleOfProduct>(), 0);
-                            order.Products.Add(productInOrder);
-                        }
+                            _ibl.Order.AddProductToOrder(order, productCode, (int)amountSelector.Value);
                         else
-                        {
-                            //add error
-                        }
+                            illegalProductCode.SetError(productId, "Illegal product code");
                     }
                     else
+                        illegalProductCode.SetError(productId, "Illegal product code");
+                    productId.Text = "";
+                }
+                else
+                {
+                    product = productsInStockGrid.CurrentRow?.DataBoundItem as Product;
+                    if (product != null)
+                        _ibl.Order.AddProductToOrder(order, product.Id, (int)amountSelector.Value);
+                    else
                     {
-                        //add error
+
                     }
                 }
+                productsInOrder.DataSource = null;
+                productsInOrder.DataSource = order.Products;
+
+                productsInStockGrid.DataSource = _ibl.Product.ReadAll(p => p.InStock > 0);
+
             }
-            productsInOrder.DataSource = null;
-            productsInOrder.DataSource = order.Products;
+            catch (Exception ex)
+            {
+                ifInstockErr.SetError(productsInStockGrid, ex.Message);
+            }
+        }
+
+        private void productId_TextChanged(object sender, EventArgs e)
+        {
+            if (productId.Text != "")
+                illegalProductCode.Clear();
+        }
+
+        private void clearInStockError(object sender, EventArgs e)
+        {
+        }
+
+        private void InStock(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clearInStockError(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            ifInstockErr?.Clear();
         }
     }
 }

@@ -46,10 +46,13 @@ namespace BlImplementation
                 }
                 else
                 {
-                    throw new NoProductsInStock("There are no product in stock right now");
+                    throw new NoProductsInStock($"There isn't enough {product.Name}s in stock right now");
                 }
             }
-            return new List<SaleOfProduct>();
+            else
+            {
+                throw new Exception($"Product with id {productId} doesn't exist");
+            }
         }
 
         public void CalcTotalPrice(Order order)

@@ -83,3 +83,20 @@ C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.ne
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.pdb
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\ref\DalTest.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.exe
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.deps.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.runtimeconfig.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalTest.pdb
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.sourcelink.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.csproj.Up2Date
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\refint\DalTest.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.pdb
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalTest\obj\Debug\ref\DalTest.dll

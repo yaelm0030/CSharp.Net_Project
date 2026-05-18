@@ -66,3 +66,20 @@ C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.ne
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.pdb
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.genruntimeconfig.cache
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\ref\BLTest.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.exe
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.deps.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.runtimeconfig.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\BLTest.pdb
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.AssemblyReference.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.GeneratedMSBuildEditorConfig.editorconfig
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.AssemblyInfoInputs.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.AssemblyInfo.cs
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.CoreCompileInputs.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.sourcelink.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.csproj.Up2Date
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\refint\BLTest.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.pdb
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\BLTest.genruntimeconfig.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\BLTest\obj\Debug\ref\BLTest.dll

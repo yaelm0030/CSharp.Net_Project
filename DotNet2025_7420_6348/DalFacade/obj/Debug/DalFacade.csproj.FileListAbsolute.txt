@@ -58,3 +58,15 @@ C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.ne
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\refint\DalFacade.dll
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.pdb
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\repo\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\ref\DalFacade.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalFacade.deps.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalFacade.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\DalFacade.pdb
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.sourcelink.json
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\refint\DalFacade.dll
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\DalFacade.pdb
+M:\c#.NET\CSharp.Net_Project\DotNet2025_7420_6348\DalFacade\obj\Debug\ref\DalFacade.dll
