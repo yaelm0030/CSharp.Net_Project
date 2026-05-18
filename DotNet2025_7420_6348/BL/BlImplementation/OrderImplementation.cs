@@ -18,36 +18,66 @@ namespace BlImplementation
             Product? product= _dal.Product.Read(productId).ConvertDOProductToBOProduct();
             if (product != null)
             {
-              
-                if(product.InStock>=amount)
+                ProductInOrder prodInOrder = (from prod in order.Products
+                                              where prod.Id == productId
+                                              select prod).FirstOrDefault();
+
+                if (prodInOrder != null)
                 {
-                    product.InStock-=amount;
-                    /////????
-                    _dal.Product.Update(product.ConvertBOProductToDOProduct());
-                    ProductInOrder prodInOrder = (from prod in order.Products
-                               where prod.Id == productId
-                               select prod).FirstOrDefault();
-                    if (prodInOrder != null)
-                    {
+                    if (product.InStock >= amount + prodInOrder.Amount)
                         prodInOrder.Amount += amount;
-                    }
                     else
+                        throw new NoProductsInStock($"There isn't enough {product.Name}s in stock right now");
+                }
+                else
+                {
+                    if (product.InStock >= amount)
                     {
                         prodInOrder = new ProductInOrder(productId, product.Name, product.Price, amount, new List<SaleOfProduct>(), 0);
                         order.Products.Add(prodInOrder);
                     }
-                    SearchSaleForProduct(prodInOrder, order.ClubCustomer);
-                    CalcTotalPriceForProduct(prodInOrder);
-                    CalcTotalPrice(order);
-                    List<SaleOfProduct>sales=new List<SaleOfProduct>();
-                    return (from prod in order.Products
-                           from sale in prod.Sales
-                           select sale).ToList();
+                    else
+                        throw new NoProductsInStock($"There isn't enough {product.Name}s in stock right now");
+
                 }
-                else
-                {
-                    throw new NoProductsInStock($"There isn't enough {product.Name}s in stock right now");
-                }
+                SearchSaleForProduct(prodInOrder, order.ClubCustomer);
+                CalcTotalPriceForProduct(prodInOrder);
+                CalcTotalPrice(order);
+                List<SaleOfProduct> sales = new List<SaleOfProduct>();
+                return (from prod in order.Products
+                        from sale in prod.Sales
+                        select sale).ToList();
+
+
+                //if (product.InStock>=amount)
+                //{
+                //    product.InStock-=amount;
+                //    /////????
+                //    //_dal.Product.Update(product.ConvertBOProductToDOProduct());
+                //    ProductInOrder prodInOrder = (from prod in order.Products
+                //               where prod.Id == productId
+                //               select prod).FirstOrDefault();
+                //    if (prodInOrder != null)
+                //    {
+                //        prodInOrder.Amount += amount;
+                //    }
+                //    else
+                //    {
+                //        prodInOrder = new ProductInOrder(productId, product.Name, product.Price, amount, new List<SaleOfProduct>(), 0);
+                //        order.Products.Add(prodInOrder);
+                //    }
+                //    SearchSaleForProduct(prodInOrder, order.ClubCustomer);
+                //    CalcTotalPriceForProduct(prodInOrder);
+                //    CalcTotalPrice(order);
+                //    List<SaleOfProduct>sales=new List<SaleOfProduct>();
+                //    return (from prod in order.Products
+                //           from sale in prod.Sales
+                //           select sale).ToList();
+                //}
+                //else
+                //{
+                //    throw new NoProductsInStock($"There isn't enough {product.Name}s in stock right now");
+                //}
             }
             else
             {
@@ -64,29 +94,64 @@ namespace BlImplementation
             }
         }
 
+        //public void CalcTotalPriceForProduct(ProductInOrder product)
+        //{
+        //    int count = product.Amount;
+        //    List<SaleOfProduct> sales=new List<SaleOfProduct>();
+        //    foreach(SaleOfProduct sale in product.Sales)
+        //    {
+        //        if (count == 0)
+        //            break;
+        //        if (count >= sale.Amount)
+        //        {
+        //            product.FinalPrice += count / sale.Amount * sale.Price;
+        //            count %= sale.Amount;
+        //            sales.Add(sale);
+        //        }
+        //    }
+        //    product.FinalPrice += count * product.Price;
+        //    product.Sales= sales;
+        //}
+
         public void CalcTotalPriceForProduct(ProductInOrder product)
         {
+            product.FinalPrice = 0;
+
             int count = product.Amount;
-            List<SaleOfProduct> sales=new List<SaleOfProduct>();
-            foreach(SaleOfProduct sale in product.Sales)
+            List<SaleOfProduct> appliedSales = new List<SaleOfProduct>();
+
+            var sortedSales = product.Sales
+                .Where(s => s.Amount > 0)
+                .OrderByDescending(s => s.Amount);
+
+            foreach (SaleOfProduct sale in sortedSales)
             {
                 if (count == 0)
                     break;
+
                 if (count >= sale.Amount)
                 {
-                    product.FinalPrice += count / sale.Amount * sale.Price;
+                    int numberOfTimesSaleApplies = count / sale.Amount;
+
+                    product.FinalPrice += numberOfTimesSaleApplies * sale.Price;
                     count %= sale.Amount;
-                    sales.Add(sale);
+
+                    appliedSales.Add(sale);
                 }
             }
+
             product.FinalPrice += count * product.Price;
-            product.Sales= sales;
+            product.Sales = appliedSales;
         }
 
         public void DoOrder(Order order)
         {
-            //////////////////////
-            throw new NotImplementedException();
+            foreach(ProductInOrder productInOrder in order.Products){
+
+                Product product= _dal.Product.Read(productInOrder.Id).ConvertDOProductToBOProduct();
+                product.InStock-=productInOrder.Amount;
+                _dal.Product.Update(product.ConvertBOProductToDOProduct());
+            }
         }
 
         public void SearchSaleForProduct(ProductInOrder product, bool clubCustomer)

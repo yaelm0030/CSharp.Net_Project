@@ -1,5 +1,6 @@
 using BO;
 using BlApi;
+using System.Windows.Forms;
 
 namespace UI
 {
@@ -14,7 +15,35 @@ namespace UI
 
 
             // Products in stock grid
+            productsInStockGrid.AutoGenerateColumns = false;
+
+            DataGridViewTextBoxColumn codeColumn = new DataGridViewTextBoxColumn();
+            codeColumn.Name = "Id";
+            codeColumn.DataPropertyName = "Id";
+            codeColumn.HeaderText = "Id";
+            productsInStockGrid.Columns.Add(codeColumn);
+
+            DataGridViewTextBoxColumn nameColumn = new DataGridViewTextBoxColumn();
+            nameColumn.Name = "Name";
+            nameColumn.DataPropertyName = "Name";
+            nameColumn.HeaderText = "Name";
+            productsInStockGrid.Columns.Add(nameColumn);
+
+            DataGridViewTextBoxColumn categoryColumn = new DataGridViewTextBoxColumn();
+            categoryColumn.Name = "Category";
+            categoryColumn.DataPropertyName = "Category";
+            categoryColumn.HeaderText = "Category";
+            productsInStockGrid.Columns.Add(categoryColumn);
+
+            DataGridViewTextBoxColumn priceColumn = new DataGridViewTextBoxColumn();
+            priceColumn.Name = "Price";
+            priceColumn.DataPropertyName = "Price";
+            priceColumn.HeaderText = "Price";
+            productsInStockGrid.Columns.Add(priceColumn);
+
             productsInStockGrid.DataSource = Factory.Get().Product.ReadAll(p => p.InStock > 0);
+
+
             productsInStockGrid.Columns["Id"].FillWeight = 50;
             productsInStockGrid.Columns["Name"].FillWeight = 150;
 
@@ -58,6 +87,10 @@ namespace UI
 
                 productsInStockGrid.DataSource = _ibl.Product.ReadAll(p => p.InStock > 0);
 
+                amountSelector.Value = 1;
+                _ibl.Order.CalcTotalPrice(order);
+                totalPriceLabel.Text=order.FinalPrice.ToString();
+
             }
             catch (Exception ex)
             {
@@ -71,18 +104,15 @@ namespace UI
                 illegalProductCode.Clear();
         }
 
-        private void clearInStockError(object sender, EventArgs e)
-        {
-        }
-
-        private void InStock(object sender, EventArgs e)
-        {
-
-        }
-
         private void clearInStockError(object sender, DataGridViewCellMouseEventArgs e)
         {
             ifInstockErr?.Clear();
+        }
+
+        private void submit_Click(object sender, EventArgs e)
+        {
+            _ibl.Order.DoOrder(order);
+            this.Close();
         }
     }
 }

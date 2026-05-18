@@ -43,6 +43,7 @@
             productsInOrder = new DataGridView();
             illegalProductCode = new ErrorProvider(components);
             ifInstockErr = new ErrorProvider(components);
+            totalPriceLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)amountSelector).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productsInStockGrid).BeginInit();
             ((System.ComponentModel.ISupportInitialize)productsInOrder).BeginInit();
@@ -59,6 +60,7 @@
             submit.TabIndex = 2;
             submit.Text = "Submit Order";
             submit.UseVisualStyleBackColor = true;
+            submit.Click += submit_Click;
             // 
             // productId
             // 
@@ -73,6 +75,7 @@
             // 
             amountSelector.Location = new Point(117, 290);
             amountSelector.Margin = new Padding(3, 2, 3, 2);
+            amountSelector.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             amountSelector.Name = "amountSelector";
             amountSelector.Size = new Size(127, 23);
             amountSelector.TabIndex = 2;
@@ -112,7 +115,7 @@
             priceLabel.AutoSize = true;
             priceLabel.Location = new Point(433, 260);
             priceLabel.Name = "priceLabel";
-            priceLabel.Size = new Size(64, 15);
+            priceLabel.Size = new Size(65, 15);
             priceLabel.TabIndex = 7;
             priceLabel.Text = "Total Price:";
             // 
@@ -175,11 +178,23 @@
             // 
             ifInstockErr.ContainerControl = this;
             // 
+            // totalPriceLabel
+            // 
+            totalPriceLabel.Anchor = AnchorStyles.Right;
+            totalPriceLabel.AutoSize = true;
+            totalPriceLabel.Location = new Point(662, 259);
+            totalPriceLabel.Name = "totalPriceLabel";
+            totalPriceLabel.Size = new Size(13, 15);
+            totalPriceLabel.TabIndex = 12;
+            totalPriceLabel.Text = "0";
+            totalPriceLabel.TextAlign = ContentAlignment.MiddleLeft;
+            // 
             // OrderForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(700, 338);
+            Controls.Add(totalPriceLabel);
             Controls.Add(productsInOrder);
             Controls.Add(productsInStockGrid);
             Controls.Add(totalPrice);
@@ -215,5 +230,6 @@
         private DataGridView productsInOrder;
         private ErrorProvider illegalProductCode;
         private ErrorProvider ifInstockErr;
+        private Label totalPriceLabel;
     }
 }

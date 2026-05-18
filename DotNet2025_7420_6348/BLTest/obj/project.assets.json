@@ -104,23 +104,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yaelmakov\\.nuget\\packages\\": {},
+    "C:\\Users\\yaelm\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\c#.NET\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\BLTest.csproj",
+      "projectUniqueName": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\BLTest.csproj",
       "projectName": "BLTest",
-      "projectPath": "M:\\c#.NET\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\BLTest.csproj",
-      "packagesPath": "C:\\Users\\yaelmakov\\.nuget\\packages\\",
-      "outputPath": "M:\\c#.NET\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\obj\\",
+      "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\BLTest.csproj",
+      "packagesPath": "C:\\Users\\yaelm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BLTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\yaelmakov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yaelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -136,11 +136,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "M:\\c#.NET\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BL.csproj": {
-              "projectPath": "M:\\c#.NET\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BL.csproj"
+            "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\BL\\BL.csproj"
             },
-            "M:\\c#.NET\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj": {
-              "projectPath": "M:\\c#.NET\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj"
+            "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj": {
+              "projectPath": "C:\\Users\\yaelm\\OneDrive\\שולחן העבודה\\תרגול תכנות\\2026\\c#.net\\Project\\CSharp.Net_Project\\DotNet2025_7420_6348\\DalTest\\DalTest.csproj"
             }
           }
         }
