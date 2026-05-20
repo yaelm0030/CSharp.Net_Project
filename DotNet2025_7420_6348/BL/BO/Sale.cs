@@ -28,6 +28,17 @@ namespace BO
             SaleEndingDate = saleEndingDate;
 
         }
+        public Sale()
+        {
+            Id = 00;
+            ProductId = 00;
+            AmountNeeded = 0;
+            PriceAfterDiscount = 0;
+            ClubCustomerSale = false;
+            SaleBeginningDate = DateTime.Now;
+            SaleEndingDate = DateTime.Now;
+
+        }
         public override string ToString()
         {
             return "Id= "+Id+ ", ProductId= " + ProductId + ", AmountNeeded= " + AmountNeeded + ", PriceAfterDiscount= " + PriceAfterDiscount + ", ClubCustomerSale= " + ClubCustomerSale + ", SaleBeginningDate= " + SaleBeginningDate + ", SaleEndingDate= " + SaleEndingDate;

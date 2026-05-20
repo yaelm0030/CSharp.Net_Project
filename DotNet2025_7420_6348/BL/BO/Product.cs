@@ -22,6 +22,14 @@ namespace BO
             Price = price;
             InStock = inStock;
         }
+        public Product()
+        {
+            Id = 00;
+            Name = "name";
+            Category = Category.cat1;
+            Price = 0.0;
+            InStock = 0;
+        }
 
         public override string ToString()
         {

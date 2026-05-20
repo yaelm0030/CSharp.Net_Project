@@ -1,4 +1,5 @@
-﻿namespace UI
+﻿
+namespace UI
 {
     partial class Manager
     {
@@ -28,12 +29,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Manager";
+            productsButton = new Button();
+            salesButton = new Button();
+            customerButtton = new Button();
+            SuspendLayout();
+            // 
+            // productsButton
+            // 
+            productsButton.Location = new Point(249, 105);
+            productsButton.Name = "productsButton";
+            productsButton.Size = new Size(303, 74);
+            productsButton.TabIndex = 0;
+            productsButton.Text = "for products";
+            productsButton.UseVisualStyleBackColor = true;
+            productsButton.Click += productsButton_Click;
+            // 
+            // salesButton
+            // 
+            salesButton.Location = new Point(249, 199);
+            salesButton.Name = "salesButton";
+            salesButton.Size = new Size(303, 74);
+            salesButton.TabIndex = 0;
+            salesButton.Text = "for sales";
+            salesButton.UseVisualStyleBackColor = true;
+            salesButton.Click += salesButton_Click;
+            // 
+            // customerButtton
+            // 
+            customerButtton.Location = new Point(249, 292);
+            customerButtton.Name = "customerButtton";
+            customerButtton.Size = new Size(303, 74);
+            customerButtton.TabIndex = 0;
+            customerButtton.Text = "for customers";
+            customerButtton.UseVisualStyleBackColor = true;
+            customerButtton.Click += customerButtton_Click;
+            // 
+            // Manager
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(customerButtton);
+            Controls.Add(salesButton);
+            Controls.Add(productsButton);
+            Name = "Manager";
+            Text = "Manager";
+            //Load += Manager_Load;
+            ResumeLayout(false);
         }
 
+        
+
         #endregion
+
+        private Button productsButton;
+        private Button salesButton;
+        private Button customerButtton;
     }
 }

@@ -22,6 +22,14 @@ namespace BO
             PhoneNumber = phoneNumber;
 
         }
+        public Customer()
+        {
+            Id = 0;
+            Name = "name";
+            Address = "address";
+            PhoneNumber = "phoneNumber";
+
+        }
 
         public override string ToString()
         {

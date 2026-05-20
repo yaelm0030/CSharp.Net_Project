@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,31 @@ namespace UI
         public Manager()
         {
             InitializeComponent();
+        }
+
+        private void customerButtton_Click(object sender, EventArgs e)
+        {
+            Customer customer = new Customer();
+            Customers customers = new Customers();
+            customers.ShowDialog();
+        }
+        //private void Manager_Load(object sender, EventArgs e)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        private void salesButton_Click(object sender, EventArgs e)
+        {
+            Sale sale = new Sale();
+            Sales sales = new Sales(sale);
+            sales.ShowDialog();
+        }
+
+        private void productsButton_Click(object sender, EventArgs e)
+        {
+            Product product = new Product();
+            Products products = new Products(product);
+            products.ShowDialog();
         }
     }
 }

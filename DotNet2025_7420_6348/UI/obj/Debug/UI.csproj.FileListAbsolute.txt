@@ -81,3 +81,28 @@ C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.ne
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.pdb
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.genruntimeconfig.cache
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\ref\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.exe
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.deps.json
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.runtimeconfig.json
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\bin\UI.pdb
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Cashier.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Manager.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.OrderForm.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfoInputs.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.AssemblyInfo.cs
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.sourcelink.json
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\refint\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.pdb
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.genruntimeconfig.cache
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\ref\UI.dll
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Login.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Customers.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Products.resources
+C:\Users\user1\Downloads\shana b\מתקדם c#\פרויקט NET\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Sales.resources
