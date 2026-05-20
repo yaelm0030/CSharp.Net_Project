@@ -24,4 +24,10 @@
     <Address>Rashbi 26</Address>
     <PhoneNumber>0548501231</PhoneNumber>
   </Customer>
+  <Customer>
+    <Id>326235555</Id>
+    <Name>Michael Makovetzky</Name>
+    <Address>Shderot Yehezkel 13</Address>
+    <PhoneNumber>0556766777</PhoneNumber>
+  </Customer>
 </ArrayOfCustomer>

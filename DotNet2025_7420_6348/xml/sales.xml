@@ -28,12 +28,12 @@
     <SaleEndingDate>2026-05-24T16:33:50.3467908+03:00</SaleEndingDate>
   </Sale>
   <Sale>
-    <Id>113</Id>
-    <ProductId>220</ProductId>
-    <AmountNeeded>10</AmountNeeded>
+    <Id>114</Id>
+    <ProductId>222</ProductId>
+    <AmountNeeded>3</AmountNeeded>
     <PriceAfterDiscount>10</PriceAfterDiscount>
     <ClubCustomersSale>true</ClubCustomersSale>
-    <SaleBeginningDate>2026-05-17T16:33:50.3494389+03:00</SaleBeginningDate>
-    <SaleEndingDate>2026-05-24T16:33:50.3494422+03:00</SaleEndingDate>
+    <SaleBeginningDate>2026-05-21T16:33:50.304</SaleBeginningDate>
+    <SaleEndingDate>2026-05-24T16:33:50.307</SaleEndingDate>
   </Sale>
 </ArrayOfSale>

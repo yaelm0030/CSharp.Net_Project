@@ -20,7 +20,6 @@ namespace UI
 
         private void customerButtton_Click(object sender, EventArgs e)
         {
-            Customer customer = new Customer();
             Customers customers = new Customers();
             customers.ShowDialog();
         }
@@ -31,8 +30,7 @@ namespace UI
 
         private void salesButton_Click(object sender, EventArgs e)
         {
-            Sale sale = new Sale();
-            Sales sales = new Sales(sale);
+            Sales sales = new Sales();
             sales.ShowDialog();
         }
 

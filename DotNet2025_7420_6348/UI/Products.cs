@@ -1,16 +1,4 @@
 ﻿using BlApi;
-using BO;
-using DO;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace UI
 {
@@ -31,65 +19,46 @@ namespace UI
             this.product = product;
             prodId.ReadOnly = true;
 
-            productsInStockGrid.AutoGenerateColumns = false;
-
-            DataGridViewTextBoxColumn codeColumn = new DataGridViewTextBoxColumn();
-            codeColumn.Name = "Id";
-            codeColumn.DataPropertyName = "Id";
-            codeColumn.HeaderText = "Id";
-            productsInStockGrid.Columns.Add(codeColumn);
-
-            DataGridViewTextBoxColumn nameColumn = new DataGridViewTextBoxColumn();
-            nameColumn.Name = "Name";
-            nameColumn.DataPropertyName = "Name";
-            nameColumn.HeaderText = "Name";
-            productsInStockGrid.Columns.Add(nameColumn);
-
-            DataGridViewTextBoxColumn categoryColumn = new DataGridViewTextBoxColumn();
-            categoryColumn.Name = "Category";
-            categoryColumn.DataPropertyName = "Category";
-            categoryColumn.HeaderText = "Category";
-            productsInStockGrid.Columns.Add(categoryColumn);
-
-            DataGridViewTextBoxColumn priceColumn = new DataGridViewTextBoxColumn();
-            priceColumn.Name = "Price";
-            priceColumn.DataPropertyName = "Price";
-            priceColumn.HeaderText = "Price";
-            productsInStockGrid.Columns.Add(priceColumn);
-
             productsInStockGrid.DataSource = Factory.Get().Product.ReadAll();
             prodCategory.DataSource = Enum.GetValues(typeof(BO.Category));
             productsInStockGrid.Columns["Id"].FillWeight = 50;
             productsInStockGrid.Columns["Name"].FillWeight = 150;
-            prodId.Text = "";
-            prodName.Text = "";
-            prodPrice.Text = "";
-            prodAmountInStock.Text = "";
-            prodCategory.Text = "";
         }
 
         private void add_Click(object sender, EventArgs e)
         {
-            if (!int.TryParse(prodId.Text, out int productId))
-            {
-                wrongDetails.SetError(prodId, "didnt manage to convert to int");
+            string productName;
+            double productPrice;
+            BO.Category productCategory;
+            int amountInStock;
 
+            productName = prodName.Text;
+            if (!double.TryParse(prodPrice.Text, out productPrice))
+            {
+                wrongDetails.SetError(prodPrice, "Invalid price");
             }
             else
-                product = _ibl.Product.Read(productId);
-            if (!double.TryParse(prodPrice.Text, out double productPrice))
             {
-                wrongDetails.SetError(prodPrice, "didnt manage to convert to double");
+                productCategory = (BO.Category)Enum.Parse(typeof(BO.Category), prodCategory.Text);
+                if (!int.TryParse(prodAmountInStock.Text, out amountInStock))
+                {
+                    wrongDetails.SetError(prodAmountInStock, "Invalid amount");
+                }
+                else
+                {
+
+                    try
+                    {
+                        _ibl.Product.Create(new BO.Product(1, productName, productCategory, productPrice, amountInStock));
+                    }
+                    catch (Exception ex)
+                    {
+                        wrongDetails.SetError(add, ex.Message);
+                    }
+
+                    productsInStockGrid.DataSource = Factory.Get().Product.ReadAll();
+                }
             }
-            if (!int.TryParse(prodAmountInStock.Text, out int productamountInStock))
-            {
-                wrongDetails.SetError(prodAmountInStock, "didnt manage to convert to int");
-            }
-            BO.Category productCat = (BO.Category)Enum.Parse(typeof(BO.Category), prodCategory.Text);
-            if (productCat == null)
-                wrongDetails.SetError(prodAmountInStock, "didnt manage to convert to category");
-            _ibl.Product.Create(product);
-            productsInStockGrid.DataSource = Factory.Get().Product.ReadAll();
         }
 
         private void ProductCategory_Click(object sender, EventArgs e)
@@ -106,49 +75,55 @@ namespace UI
         {
             if (!int.TryParse(prodId.Text, out int productId))
             {
-                wrongDetails.SetError(prodId, "didnt manage to convert to int");
-
+                wrongDetails.SetError(prodId, "Invalid code");
             }
             else
                 _ibl.Product.Delete(productId);
-
+            productsInStockGrid.DataSource = Factory.Get().Product.ReadAll();
         }
 
         private void update_Click(object sender, EventArgs e)
         {
+            int productId;
+            string productName;
+            double productPrice;
+            BO.Category productCategory;
+            int amountInStock;
 
-            if (!int.TryParse(prodId.Text, out int productId))
+            if (!int.TryParse(prodId.Text, out productId))
             {
-                wrongDetails.SetError(prodId,"didnt manage to convert to int");
-
+                wrongDetails.SetError(prodId, "Invalid code");
             }
             else
-                product = _ibl.Product.Read(productId);
-            if (!double.TryParse(prodPrice.Text, out double productPrice))
             {
-                wrongDetails.SetError(prodPrice, "didnt manage to convert to double");
+                productName = prodName.Text;
+                if (!double.TryParse(prodPrice.Text, out productPrice))
+                {
+                    wrongDetails.SetError(prodPrice, "Invalid price");
+                }
+                else
+                {
+                    productCategory = (BO.Category)Enum.Parse(typeof(BO.Category), prodCategory.Text);
+                    if (!int.TryParse(prodAmountInStock.Text, out amountInStock))
+                    {
+                        wrongDetails.SetError(prodAmountInStock, "Invalid amount");
+                    }
+                    else
+                    {
+
+                        try
+                        {
+                            _ibl.Product.Update(new BO.Product(productId, productName, productCategory, productPrice, amountInStock));
+                        }
+                        catch (Exception ex)
+                        {
+                            wrongDetails.SetError(add, ex.Message);
+                        }
+
+                        productsInStockGrid.DataSource = Factory.Get().Product.ReadAll();
+                    }
+                }
             }
-            if (!int.TryParse(prodAmountInStock.Text, out int productamountInStock))
-            {
-                wrongDetails.SetError(prodAmountInStock, "didnt manage to convert to int");
-            }
-            BO.Category productCat = (BO.Category)Enum.Parse(typeof(BO.Category), prodCategory.Text);
-            if(productCat == null)
-                wrongDetails.SetError(prodAmountInStock, "didnt manage to convert to category");
-            _ibl.Product.Update(product);
-            productsInStockGrid.DataSource = Factory.Get().Product.ReadAll();
-
-        }
-
-        private void Products_Load(object sender, EventArgs e)
-        {
-            //product = productsInStockGrid.CurrentRow?.DataBoundItem as BO.Product;
-            //prodId.Text = product.Id.ToString();
-            //prodName.Text = product.Name.ToString();
-            //prodPrice.Text = product.Price.ToString();
-            //prodAmountInStock.Text = product.InStock.ToString();
-            //prodCategory.Text = product.Category.ToString();
-
         }
 
         private void productsInStockGrid_SelectionChanged(object sender, EventArgs e)

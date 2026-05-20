@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             productsInStockGrid = new DataGridView();
             add = new Button();
             delete = new Button();
@@ -54,36 +54,36 @@
             // 
             productsInStockGrid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             productsInStockGrid.BackgroundColor = SystemColors.Menu;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = SystemColors.Menu;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            productsInStockGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = SystemColors.Menu;
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            productsInStockGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             productsInStockGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = SystemColors.Menu;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-            productsInStockGrid.DefaultCellStyle = dataGridViewCellStyle2;
-            productsInStockGrid.Location = new Point(12, 13);
-            productsInStockGrid.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = SystemColors.Menu;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            productsInStockGrid.DefaultCellStyle = dataGridViewCellStyle6;
+            productsInStockGrid.Location = new Point(10, 10);
             productsInStockGrid.Name = "productsInStockGrid";
             productsInStockGrid.RowHeadersWidth = 51;
-            productsInStockGrid.Size = new Size(450, 352);
+            productsInStockGrid.Size = new Size(394, 264);
             productsInStockGrid.TabIndex = 10;
             productsInStockGrid.SelectionChanged += productsInStockGrid_SelectionChanged;
             // 
             // add
             // 
-            add.Location = new Point(12, 372);
+            add.Location = new Point(10, 279);
+            add.Margin = new Padding(3, 2, 3, 2);
             add.Name = "add";
-            add.Size = new Size(145, 66);
+            add.Size = new Size(127, 50);
             add.TabIndex = 11;
             add.Text = "add a new product";
             add.UseVisualStyleBackColor = true;
@@ -91,9 +91,10 @@
             // 
             // delete
             // 
-            delete.Location = new Point(163, 372);
+            delete.Location = new Point(143, 279);
+            delete.Margin = new Padding(3, 2, 3, 2);
             delete.Name = "delete";
-            delete.Size = new Size(148, 66);
+            delete.Size = new Size(130, 50);
             delete.TabIndex = 11;
             delete.Text = "delete the selected product";
             delete.UseVisualStyleBackColor = true;
@@ -101,9 +102,10 @@
             // 
             // update
             // 
-            update.Location = new Point(317, 372);
+            update.Location = new Point(277, 279);
+            update.Margin = new Padding(3, 2, 3, 2);
             update.Name = "update";
-            update.Size = new Size(145, 66);
+            update.Size = new Size(127, 50);
             update.TabIndex = 11;
             update.Text = "update the selected product";
             update.UseVisualStyleBackColor = true;
@@ -113,49 +115,53 @@
             // 
             productId.AutoSize = true;
             productId.Font = new Font("Segoe UI", 12F);
-            productId.Location = new Point(480, 13);
+            productId.Location = new Point(428, 14);
             productId.Name = "productId";
-            productId.Size = new Size(121, 28);
+            productId.Size = new Size(95, 21);
             productId.TabIndex = 12;
             productId.Text = "product's id:";
             // 
             // prodId
             // 
-            prodId.Location = new Point(489, 54);
+            prodId.Location = new Point(428, 37);
+            prodId.Margin = new Padding(3, 2, 3, 2);
             prodId.Name = "prodId";
             prodId.ReadOnly = true;
-            prodId.Size = new Size(183, 27);
+            prodId.Size = new Size(166, 23);
             prodId.TabIndex = 13;
             // 
             // prodCategory
             // 
             prodCategory.FormattingEnabled = true;
-            prodCategory.Location = new Point(489, 209);
+            prodCategory.Location = new Point(428, 152);
+            prodCategory.Margin = new Padding(3, 2, 3, 2);
             prodCategory.Name = "prodCategory";
-            prodCategory.Size = new Size(183, 28);
+            prodCategory.Size = new Size(166, 23);
             prodCategory.TabIndex = 14;
             // 
             // prodAmountInStock
             // 
-            prodAmountInStock.Location = new Point(483, 343);
+            prodAmountInStock.Location = new Point(428, 251);
+            prodAmountInStock.Margin = new Padding(3, 2, 3, 2);
             prodAmountInStock.Name = "prodAmountInStock";
-            prodAmountInStock.Size = new Size(189, 27);
+            prodAmountInStock.Size = new Size(166, 23);
             prodAmountInStock.TabIndex = 13;
             // 
             // prodName
             // 
-            prodName.Location = new Point(489, 125);
+            prodName.Location = new Point(428, 93);
+            prodName.Margin = new Padding(3, 2, 3, 2);
             prodName.Name = "prodName";
-            prodName.Size = new Size(183, 27);
+            prodName.Size = new Size(166, 23);
             prodName.TabIndex = 13;
             // 
             // productName
             // 
             productName.AutoSize = true;
             productName.Font = new Font("Segoe UI", 12F);
-            productName.Location = new Point(480, 84);
+            productName.Location = new Point(428, 71);
             productName.Name = "productName";
-            productName.Size = new Size(152, 28);
+            productName.Size = new Size(121, 21);
             productName.TabIndex = 12;
             productName.Text = "product's name:";
             // 
@@ -163,9 +169,9 @@
             // 
             productCayegory.AutoSize = true;
             productCayegory.Font = new Font("Segoe UI", 12F);
-            productCayegory.Location = new Point(483, 165);
+            productCayegory.Location = new Point(428, 128);
             productCayegory.Name = "productCayegory";
-            productCayegory.Size = new Size(181, 28);
+            productCayegory.Size = new Size(142, 21);
             productCayegory.TabIndex = 12;
             productCayegory.Text = "product's category:";
             // 
@@ -173,9 +179,9 @@
             // 
             productPrice.AutoSize = true;
             productPrice.Font = new Font("Segoe UI", 12F);
-            productPrice.Location = new Point(483, 240);
+            productPrice.Location = new Point(428, 183);
             productPrice.Name = "productPrice";
-            productPrice.Size = new Size(147, 28);
+            productPrice.Size = new Size(116, 21);
             productPrice.TabIndex = 12;
             productPrice.Text = "product's price:";
             // 
@@ -183,17 +189,18 @@
             // 
             amountInStock.AutoSize = true;
             amountInStock.Font = new Font("Segoe UI", 12F);
-            amountInStock.Location = new Point(483, 312);
+            amountInStock.Location = new Point(428, 229);
             amountInStock.Name = "amountInStock";
-            amountInStock.Size = new Size(156, 28);
+            amountInStock.Size = new Size(124, 21);
             amountInStock.TabIndex = 12;
             amountInStock.Text = "amount in stock:";
             // 
             // prodPrice
             // 
-            prodPrice.Location = new Point(483, 282);
+            prodPrice.Location = new Point(428, 205);
+            prodPrice.Margin = new Padding(3, 2, 3, 2);
             prodPrice.Name = "prodPrice";
-            prodPrice.Size = new Size(189, 27);
+            prodPrice.Size = new Size(166, 23);
             prodPrice.TabIndex = 13;
             // 
             // wrongDetails
@@ -202,9 +209,9 @@
             // 
             // Products
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(prodCategory);
             Controls.Add(prodName);
             Controls.Add(prodPrice);
@@ -219,9 +226,9 @@
             Controls.Add(delete);
             Controls.Add(add);
             Controls.Add(productsInStockGrid);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Products";
             Text = "Products";
-            Load += Products_Load;
             ((System.ComponentModel.ISupportInitialize)productsInStockGrid).EndInit();
             ((System.ComponentModel.ISupportInitialize)wrongDetails).EndInit();
             ResumeLayout(false);

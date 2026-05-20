@@ -3,7 +3,7 @@
   <Product>
     <Id>221</Id>
     <Name>productname2</Name>
-    <Category>cat1</Category>
+    <Category>cat3</Category>
     <Price>1.1</Price>
     <InStock>3</InStock>
   </Product>
