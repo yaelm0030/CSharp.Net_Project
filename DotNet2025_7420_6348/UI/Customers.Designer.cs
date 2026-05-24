@@ -31,6 +31,7 @@
             components = new System.ComponentModel.Container();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customers));
             customerNameInput = new TextBox();
             customerPhoneNumberInput = new TextBox();
             customerPhoneNumberLabel = new Label();
@@ -50,27 +51,25 @@
             // 
             // customerNameInput
             // 
-            customerNameInput.Location = new Point(429, 108);
-            customerNameInput.Margin = new Padding(3, 2, 3, 2);
+            customerNameInput.Location = new Point(490, 144);
             customerNameInput.Name = "customerNameInput";
-            customerNameInput.Size = new Size(166, 23);
+            customerNameInput.Size = new Size(189, 27);
             customerNameInput.TabIndex = 24;
             // 
             // customerPhoneNumberInput
             // 
-            customerPhoneNumberInput.Location = new Point(429, 249);
-            customerPhoneNumberInput.Margin = new Padding(3, 2, 3, 2);
+            customerPhoneNumberInput.Location = new Point(490, 332);
             customerPhoneNumberInput.Name = "customerPhoneNumberInput";
-            customerPhoneNumberInput.Size = new Size(166, 23);
+            customerPhoneNumberInput.Size = new Size(189, 27);
             customerPhoneNumberInput.TabIndex = 25;
             // 
             // customerPhoneNumberLabel
             // 
             customerPhoneNumberLabel.AutoSize = true;
             customerPhoneNumberLabel.Font = new Font("Segoe UI", 12F);
-            customerPhoneNumberLabel.Location = new Point(429, 227);
+            customerPhoneNumberLabel.Location = new Point(490, 303);
             customerPhoneNumberLabel.Name = "customerPhoneNumberLabel";
-            customerPhoneNumberLabel.Size = new Size(199, 21);
+            customerPhoneNumberLabel.Size = new Size(247, 28);
             customerPhoneNumberLabel.TabIndex = 20;
             customerPhoneNumberLabel.Text = "Customer's phone number:";
             // 
@@ -78,9 +77,9 @@
             // 
             customerAddressLabel.AutoSize = true;
             customerAddressLabel.Font = new Font("Segoe UI", 12F);
-            customerAddressLabel.Location = new Point(429, 156);
+            customerAddressLabel.Location = new Point(490, 208);
             customerAddressLabel.Name = "customerAddressLabel";
-            customerAddressLabel.Size = new Size(150, 21);
+            customerAddressLabel.Size = new Size(185, 28);
             customerAddressLabel.TabIndex = 21;
             customerAddressLabel.Text = "Customer's address:";
             // 
@@ -88,9 +87,9 @@
             // 
             customerNameLabel.AutoSize = true;
             customerNameLabel.Font = new Font("Segoe UI", 12F);
-            customerNameLabel.Location = new Point(429, 85);
+            customerNameLabel.Location = new Point(490, 113);
             customerNameLabel.Name = "customerNameLabel";
-            customerNameLabel.Size = new Size(135, 21);
+            customerNameLabel.Size = new Size(166, 28);
             customerNameLabel.TabIndex = 22;
             customerNameLabel.Text = "Customer's name:";
             // 
@@ -98,18 +97,17 @@
             // 
             customerIdLabel.AutoSize = true;
             customerIdLabel.Font = new Font("Segoe UI", 12F);
-            customerIdLabel.Location = new Point(429, 13);
+            customerIdLabel.Location = new Point(490, 17);
             customerIdLabel.Name = "customerIdLabel";
-            customerIdLabel.Size = new Size(109, 21);
+            customerIdLabel.Size = new Size(135, 28);
             customerIdLabel.TabIndex = 23;
             customerIdLabel.Text = "Customer's id:";
             // 
             // updateCustomerButton
             // 
-            updateCustomerButton.Location = new Point(278, 278);
-            updateCustomerButton.Margin = new Padding(3, 2, 3, 2);
+            updateCustomerButton.Location = new Point(318, 371);
             updateCustomerButton.Name = "updateCustomerButton";
-            updateCustomerButton.Size = new Size(127, 50);
+            updateCustomerButton.Size = new Size(145, 67);
             updateCustomerButton.TabIndex = 16;
             updateCustomerButton.Text = "update the selected customer";
             updateCustomerButton.UseVisualStyleBackColor = true;
@@ -117,10 +115,9 @@
             // 
             // deleteCustomerButton
             // 
-            deleteCustomerButton.Location = new Point(144, 278);
-            deleteCustomerButton.Margin = new Padding(3, 2, 3, 2);
+            deleteCustomerButton.Location = new Point(165, 371);
             deleteCustomerButton.Name = "deleteCustomerButton";
-            deleteCustomerButton.Size = new Size(130, 50);
+            deleteCustomerButton.Size = new Size(149, 67);
             deleteCustomerButton.TabIndex = 17;
             deleteCustomerButton.Text = "delete the selected customer";
             deleteCustomerButton.UseVisualStyleBackColor = true;
@@ -128,10 +125,9 @@
             // 
             // addCustomerButton
             // 
-            addCustomerButton.Location = new Point(11, 278);
-            addCustomerButton.Margin = new Padding(3, 2, 3, 2);
+            addCustomerButton.Location = new Point(13, 371);
             addCustomerButton.Name = "addCustomerButton";
-            addCustomerButton.Size = new Size(127, 50);
+            addCustomerButton.Size = new Size(145, 67);
             addCustomerButton.TabIndex = 18;
             addCustomerButton.Text = "add a new customer";
             addCustomerButton.UseVisualStyleBackColor = true;
@@ -158,10 +154,11 @@
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
             customersGrid.DefaultCellStyle = dataGridViewCellStyle2;
-            customersGrid.Location = new Point(11, 9);
+            customersGrid.Location = new Point(13, 12);
+            customersGrid.Margin = new Padding(3, 4, 3, 4);
             customersGrid.Name = "customersGrid";
             customersGrid.RowHeadersWidth = 51;
-            customersGrid.Size = new Size(394, 264);
+            customersGrid.Size = new Size(450, 352);
             customersGrid.TabIndex = 15;
             customersGrid.SelectionChanged += customersGrid_selectionChanged;
             // 
@@ -171,25 +168,23 @@
             // 
             // customerAddressInput
             // 
-            customerAddressInput.Location = new Point(429, 179);
-            customerAddressInput.Margin = new Padding(3, 2, 3, 2);
+            customerAddressInput.Location = new Point(490, 239);
             customerAddressInput.Name = "customerAddressInput";
-            customerAddressInput.Size = new Size(166, 23);
+            customerAddressInput.Size = new Size(189, 27);
             customerAddressInput.TabIndex = 30;
             // 
             // customerIdInput
             // 
-            customerIdInput.Location = new Point(429, 36);
-            customerIdInput.Margin = new Padding(3, 2, 3, 2);
+            customerIdInput.Location = new Point(490, 48);
             customerIdInput.Name = "customerIdInput";
-            customerIdInput.Size = new Size(166, 23);
+            customerIdInput.Size = new Size(189, 27);
             customerIdInput.TabIndex = 31;
             // 
             // Customers
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(687, 335);
+            ClientSize = new Size(785, 447);
             Controls.Add(customerIdInput);
             Controls.Add(customerAddressInput);
             Controls.Add(customerNameInput);
@@ -202,6 +197,8 @@
             Controls.Add(deleteCustomerButton);
             Controls.Add(addCustomerButton);
             Controls.Add(customersGrid);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Customers";
             Text = "Customers";
             ((System.ComponentModel.ISupportInitialize)customersGrid).EndInit();

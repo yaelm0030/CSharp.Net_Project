@@ -29,6 +29,7 @@ namespace UI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manager));
             productsButton = new Button();
             salesButton = new Button();
             customerButtton = new Button();
@@ -72,13 +73,13 @@ namespace UI
             Controls.Add(customerButtton);
             Controls.Add(salesButton);
             Controls.Add(productsButton);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Manager";
             Text = "Manager";
-            //Load += Manager_Load;
             ResumeLayout(false);
         }
 
-        
+
 
         #endregion
 

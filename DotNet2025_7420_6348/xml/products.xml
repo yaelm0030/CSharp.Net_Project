@@ -2,21 +2,14 @@
 <ArrayOfProduct>
   <Product>
     <Id>221</Id>
-    <Name>productname2</Name>
-    <Category>cat3</Category>
+    <Name>cocoa</Name>
+    <Category>cat2</Category>
     <Price>1.1</Price>
     <InStock>3</InStock>
   </Product>
   <Product>
-    <Id>223</Id>
-    <Name>productname4</Name>
-    <Category>cat1</Category>
-    <Price>1.1</Price>
-    <InStock>4</InStock>
-  </Product>
-  <Product>
     <Id>224</Id>
-    <Name>productname2</Name>
+    <Name>yogurt</Name>
     <Category>cat1</Category>
     <Price>1.1</Price>
     <InStock>3</InStock>

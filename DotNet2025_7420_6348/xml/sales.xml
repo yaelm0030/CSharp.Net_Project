@@ -2,7 +2,7 @@
 <ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
     <Id>110</Id>
-    <ProductId>220</ProductId>
+    <ProductId>225</ProductId>
     <AmountNeeded>2</AmountNeeded>
     <PriceAfterDiscount>3.4</PriceAfterDiscount>
     <ClubCustomersSale>true</ClubCustomersSale>
@@ -10,18 +10,18 @@
     <SaleEndingDate>2026-05-24T16:33:50.3077857+03:00</SaleEndingDate>
   </Sale>
   <Sale>
-    <Id>111</Id>
+    <Id>115</Id>
     <ProductId>220</ProductId>
-    <AmountNeeded>4</AmountNeeded>
-    <PriceAfterDiscount>10</PriceAfterDiscount>
+    <AmountNeeded>1</AmountNeeded>
+    <PriceAfterDiscount>6.8</PriceAfterDiscount>
     <ClubCustomersSale>true</ClubCustomersSale>
-    <SaleBeginningDate>2026-05-17T16:33:50.3358852+03:00</SaleBeginningDate>
-    <SaleEndingDate>2026-05-24T16:33:50.3358899+03:00</SaleEndingDate>
+    <SaleBeginningDate>2026-05-17T16:33:50.3467868+03:00</SaleBeginningDate>
+    <SaleEndingDate>2026-05-24T16:33:50.3467908+03:00</SaleEndingDate>
   </Sale>
   <Sale>
     <Id>112</Id>
     <ProductId>220</ProductId>
-    <AmountNeeded>1</AmountNeeded>
+    <AmountNeeded>6</AmountNeeded>
     <PriceAfterDiscount>6.8</PriceAfterDiscount>
     <ClubCustomersSale>true</ClubCustomersSale>
     <SaleBeginningDate>2026-05-17T16:33:50.3467868+03:00</SaleBeginningDate>
@@ -32,7 +32,7 @@
     <ProductId>222</ProductId>
     <AmountNeeded>3</AmountNeeded>
     <PriceAfterDiscount>10</PriceAfterDiscount>
-    <ClubCustomersSale>true</ClubCustomersSale>
+    <ClubCustomersSale>false</ClubCustomersSale>
     <SaleBeginningDate>2026-05-21T16:33:50.304</SaleBeginningDate>
     <SaleEndingDate>2026-05-24T16:33:50.307</SaleEndingDate>
   </Sale>

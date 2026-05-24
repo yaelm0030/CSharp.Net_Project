@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cashier));
             startOrderButton = new Button();
             clubCustomerCheckbox = new CheckBox();
             SuspendLayout();
@@ -59,6 +60,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(clubCustomerCheckbox);
             Controls.Add(startOrderButton);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Cashier";
             Text = "StartOrderForm";
             ResumeLayout(false);

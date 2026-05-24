@@ -18,15 +18,15 @@ namespace UI
             realDate.Text = DateTime.Now.ToString();
             int hour = DateTime.Now.Hour;
             if (hour>6&&hour<=12)
-                welcome.Text = "Good morning, welcome to our shop...";
+                welcome.Text = "Good morning, welcome to Shoposh...";
             else { 
                 if (hour > 12 && hour <= 18)
-                welcome.Text = "Good afternoon, welcome to our shop...";
+                welcome.Text = "Good afternoon, welcome to Shoposh...";
                 else {
                 if (hour > 18 && hour <= 22)
-                welcome.Text = "Good evening, welcome to our shop...";
+                welcome.Text = "Good evening, welcome to Shoposh...";
             else
-                welcome.Text = "Good night, welcome to our shop...";
+                welcome.Text = "Good night, welcome to Shoposh...";
                 }
             }
         }
@@ -35,12 +35,14 @@ namespace UI
         {
             Manager manager = new Manager();
             manager.ShowDialog();
+            realDate.Text= DateTime.Now.ToString();
         }
 
         private void cashierButton_Click(object sender, EventArgs e)
         {
             Cashier cashier = new Cashier();
             cashier.ShowDialog();
+            realDate.Text = DateTime.Now.ToString();
         }
     }
 }

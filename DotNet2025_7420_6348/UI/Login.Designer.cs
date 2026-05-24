@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             cashierButton = new Button();
             mangerButton = new Button();
             date = new Label();
@@ -96,6 +97,7 @@
             Controls.Add(date);
             Controls.Add(mangerButton);
             Controls.Add(cashierButton);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Login";
             Text = "Login";
             ResumeLayout(false);
