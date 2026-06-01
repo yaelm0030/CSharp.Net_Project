@@ -29,7 +29,7 @@ namespace BlImplementation
             }
             catch (DO.DalIDNotFoundException didnfe)
             {
-                throw new BO.BlSaleIdNotFoundException(s.Id, didnfe);
+                throw new BO.BlProductIdNotFoundException(s.ProductId, didnfe);
             }
             catch(Exception e)
             {

@@ -36,4 +36,13 @@
     <SaleBeginningDate>2026-06-01T23:13:13.6250866+03:00</SaleBeginningDate>
     <SaleEndingDate>2026-06-08T23:13:13.6250881+03:00</SaleEndingDate>
   </Sale>
+  <Sale>
+    <Id>114</Id>
+    <ProductId>222</ProductId>
+    <AmountNeeded>4</AmountNeeded>
+    <PriceAfterDiscount>10</PriceAfterDiscount>
+    <ClubCustomersSale>true</ClubCustomersSale>
+    <SaleBeginningDate>2026-06-01T23:13:13.6198413+03:00</SaleBeginningDate>
+    <SaleEndingDate>2026-06-08T23:13:13.619844+03:00</SaleEndingDate>
+  </Sale>
 </ArrayOfSale>

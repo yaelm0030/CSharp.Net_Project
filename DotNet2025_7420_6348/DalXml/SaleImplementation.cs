@@ -11,6 +11,7 @@ internal class SaleImplementation : ISale
 
     public int Create(Sale s)
     {
+        DalXml.Instance.Product.Read(s.ProductId);
         int myId = Config.SaleNum;
         s=s with { Id = myId };
         List<Sale> salesList;
