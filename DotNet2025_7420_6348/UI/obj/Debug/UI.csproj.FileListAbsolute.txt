@@ -110,3 +110,7 @@ C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.ne
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Login.resources
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Products.resources
 C:\Users\yaelm\OneDrive\שולחן העבודה\תרגול תכנות\2026\c#.net\Project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Sales.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Customers.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Login.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Products.resources
+C:\Users\Yael\Desktop\dotnet_project\CSharp.Net_Project\DotNet2025_7420_6348\UI\obj\Debug\UI.Sales.resources

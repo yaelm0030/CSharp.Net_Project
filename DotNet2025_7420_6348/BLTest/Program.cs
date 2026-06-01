@@ -14,7 +14,7 @@ internal class Program
     {
         try
         {
-            //Initialization.Initialize();
+            Initialization.Initialize();
             MainMenu();
         }
         catch (BlCustomerIdNotFoundException pidnfEx)

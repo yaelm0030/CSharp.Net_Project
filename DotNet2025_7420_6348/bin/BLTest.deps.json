@@ -23,7 +23,7 @@
         },
         "runtime": {
           "BL.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -31,7 +31,7 @@
       "DalFacade/1.0.0": {
         "runtime": {
           "DalFacade.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -42,7 +42,7 @@
         },
         "runtime": {
           "DalList.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -55,7 +55,7 @@
         },
         "runtime": {
           "DalTest.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -66,7 +66,7 @@
         },
         "runtime": {
           "DalXml.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
